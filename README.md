@@ -1,6 +1,5 @@
 # Raphael's Dotfiles
 
----
 
 ## 1. Dependencies
 
