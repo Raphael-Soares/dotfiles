@@ -47,10 +47,14 @@
 ## 2. Preview
 <details>
   <summary>Click here to expand</summary>
-  ![Workspace](./assets/area-trabalho.png)
-  ![Menu](./assets/menu.png)
-  ![Apps](./assets/nautilus-configuracoes.png)
-  ![Apps](./assets/terminal.png)
+
+  ![Workspace](/assets/area-trabalho.png)
+
+  ![Menu](/assets/menu.png)
+
+  ![Apps](/assets/nautilus-configuracoes.png)
+
+  ![Terminal](/assets/terminal.png)
  
 </details>
 
