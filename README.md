@@ -67,8 +67,8 @@
 
 
 ```bash
-git clone https://github.com/Raphael-Soares/dotfiles.git
-cd dotfiles/stow/ 
+git clone https://github.com/Raphael-Soares/dotfiles.git ~/
+cd dotfiles/ 
 stow .
 
 ```
