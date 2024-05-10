@@ -1,0 +1,47 @@
+# Windows opacity
+set $opacity 0.95
+for_window [class=".*"] opacity $opacity
+for_window [app_id=".*"] opacity $opacity
+
+for_window [app_id="firefox"] opacity 1.0
+for_window [class="firefox"] opacity 1.0
+for_window [class="Google-chrome"] opacity 1.0
+for_window [app_id="google-chrome"] opacity 1.0
+for_window [class="Vivaldi-stable"] opacity 1.0
+for_window [app_id="vivaldi-stable"] opacity 1.0
+for_window [class="Microsoft-edge"] opacity 1.0
+for_window [app_id="microsoft-edge"] opacity 1.0
+for_window [class="Brave-browser"] opacity 1.0
+for_window [app_id="brave-browser"] opacity 1.0
+for_window [title="(?:Opera)"] opacity 1.0
+for_window [app_id="mpv"] opacity 1.0
+for_window [class="mpv"] opacity 1.0
+
+
+
+for_window [app_id="pavucontrol"] {
+  floating enable
+  resize set width 300px
+  move position 100ppt 0
+  move left 300px
+}
+
+
+for_window [app_id="blueman-manager"] {
+  floating enable
+  resize set width 300px
+  resize set height 500px
+  move position 100ppt 0
+  move left 530px
+}
+
+for_window [class="blueman-applet"] {
+  floating enable
+  resize set width 300px
+  resize set height 500px
+  move position 100ppt 0
+  move left 530px
+}
+
+
+

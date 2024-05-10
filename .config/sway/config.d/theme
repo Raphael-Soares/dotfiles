@@ -1,0 +1,35 @@
+
+
+set {
+  $accent #504945
+  $red #cc241d
+  $darkgray #282828
+  $foreground #A89984
+}
+
+
+default_border pixel 0 
+
+blur enable
+blur_passes 2
+blur_noise 0.3
+
+shadows enable
+shadow_color $foreground
+shadow_inactive_color $darkgray
+shadow_blur_radius 10
+
+gaps inner 4 
+gaps outer 1
+corner_radius 4
+
+
+client.focused          $foreground $foreground $foreground $foreground $foreground
+client.focused_inactive $darkgray $darkgray $accent $darkgray $darkgray
+client.unfocused        $darkgray $darkgray $accent $darkgray $darkgray
+client.urgent           $red $red $accent $red $red
+
+bar {
+    swaybar_command waybar
+}
+

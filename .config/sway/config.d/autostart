@@ -1,0 +1,4 @@
+exec ~/.config/sway/scripts/gsettings
+exec ~/.config/sway/scripts/trayicons.sh
+exec bitwarden-desktop 
+
