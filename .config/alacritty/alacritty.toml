@@ -17,11 +17,10 @@ style = "Italic"
 family = "JetBrainsMono Nerd Font"
 style = "Regular"
 
-[window]
 
-padding.x = 10
-padding.y = 10
+# Colors (Gruvbox dark)
 
+# Default colors
 [colors.primary]
 # hard contrast background = = '#1d2021'
 background = '#282828'
@@ -34,7 +33,7 @@ black   = '#282828'
 red     = '#cc241d'
 green   = '#98971a'
 yellow  = '#d79921'
-blue    = '#458588'
+blue    = '#458589'
 magenta = '#b16286'
 cyan    = '#689d6a'
 white   = '#a89984'
@@ -49,3 +48,10 @@ blue    = '#83a598'
 magenta = '#d3869b'
 cyan    = '#8ec07c'
 white   = '#ebdbb2'
+
+[window]
+padding.x = 10
+padding.y = 0
+decorations = "none"
+opacity = 1
+blur = true

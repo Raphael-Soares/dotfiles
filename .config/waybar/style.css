@@ -43,7 +43,6 @@ window#waybar {
   padding: 2px 8px;
   color: @foreground;
   margin-right: 2px;
-  border-radius: 5px;
 }
 
 #workspaces button.focused {
@@ -62,7 +61,8 @@ window#waybar {
 #network,
 #bluetooth,
 #tray,
-#idle_inhibitor {
+#idle_inhibitor,
+#custom-clipboard {
   background-color: @black;
   padding: 2px 10px;
   margin: 5px 0px;
@@ -75,17 +75,10 @@ window#waybar {
 #network:hover,
 #bluetooth:hover,
 #tray:hover,
-#idle_inhibitor:hover {
+#idle_inhibitor:hover,
+#custom-clipboard:hover {
   background-color: @blacker;
   transition: all 0.3s;
-}
-
-#clock {
-  border-radius: 5px;
-}
-
-#idle_inhibitor {
-  padding-right: 13px;
 }
 
 #battery.charging {
@@ -96,12 +89,6 @@ window#waybar {
   background-color: @red;
 }
 
-#tray {
-  border-top-right-radius: 5px;
-  border-bottom-right-radius: 5px;
-  margin-right: 6px;
-}
-
 #custom-spotify {
   background-color: @black;
   padding: 2px 10px;
@@ -109,11 +96,13 @@ window#waybar {
   color: @green;
 }
 
-#network {
-  padding-right: 13px;
-}
-
 #tray > * {
   padding: 0 2px;
   margin: 0 2px;
+}
+
+
+
+#clock {
+  margin-right: 8px;
 }

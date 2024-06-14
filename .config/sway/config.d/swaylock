@@ -1,4 +1,4 @@
 exec_always killall swayidle
 exec_always bash $HOME/.config/sway/scriptssudo/swayidle.sh
 
-bindsym Mod1+l exec $HOME/.config/sway/scripts/lock.sh 50
+bindsym Mod1+l exec swaylock

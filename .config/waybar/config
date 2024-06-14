@@ -4,23 +4,13 @@
   "height": 24,
   "spacing": 5,
   "modules-left": ["sway/workspaces", "sway/mode"],
-  "modules-center": ["clock#date", "clock#time"],
-  "modules-right": [
-    "idle_inhibitor",
-    "custom/spotify",
-    "battery",
-    "pulseaudio",
-    "tray",
+  "modules-center": ["custom/spotify"],
+  "modules-right": ["tray", "battery", "pulseaudio", "clock"],
 
-  ],
-  "clock#time": {
-    "format": "{:%H:%M}",
-    "interval": 1
-  },
-  "clock#date": {
-    "format": "{:%d/%m/%Y}",
+  "clock": {
+    "format": "{:%d %b %H:%M}",
     "tooltip-format": "<tt>{calendar}</tt>",
-    "interval": 360,
+    "interval": 1,
     "calendar": {
       "mode": "month",
       "mode-mon-col": 4,
@@ -37,22 +27,19 @@
     }
   },
   "battery": {
-    "interval": 10,
     "format": "{icon} {capacity}%",
-    "format-plugged": "plugged",
-    "format-charging": "{icon} {capacity}% ",
-    "format-charged": "{icon} {capacity}% ",
-    "format-full": "{icon} {capacity}% ",
-    "format-icons": {
-      "charging": ["󰢜", "󰂆", "󰂇", "󰂈", "󰢝", "󰢝", "󰢞", "󰂊", "󰂋", "󰂅"],
-      "discharging": ["󰁺", "󰁻", "󰁼", "󰁽", "󰁾", "󰁿", "󰂀", "󰂁", "󰂂"],
-      "plugged": ""
-    },
-    "tooltip": true
+    "format-icons": ["󰁺", "󰁻", "󰁼", "󰁽", "󰁾", "󰁿", "󰂀", "󰂁", "󰂂", "󰂄"],
+    "format-time": "{H}h{M}m",
+    "format-charging": "{icon} {capacity}% - {time}",
+    "format-charging-icons": ["󰢜", "󰂆", "󰂇", "󰂈", "󰢝", "󰢝", "󰢞", "󰂊", "󰂋", "󰂅"],
+    "format-full": "{icon}",
+    "interval": 10,
+    "tooltip": false,
+    "on-click": "2"
   },
   "pulseaudio": {
     "scroll-step": 5,
-    "format": "{icon}",
+    "format": "{icon} {volume}%",
     "format-icons": {
       "default": ["󰝟", "󰕿", "󰖀", "󰕾"]
     },
@@ -63,7 +50,7 @@
   },
   "tray": {
     "show-passive-items": true,
-    "spacing": 5,
+    "spacing": 8,
     "icon-size": 14
   },
   "custom/spotify": {
@@ -75,13 +62,15 @@
     "on-scroll-down": "playerctl previous"
   },
   "idle_inhibitor": {
-    "format": " {icon} ",
+    "format": "{icon}",
     "format-icons": {
-      "activated": "󰈈",
-      "deactivated": "󰈉"
+      "activated": "󰾪",
+      "deactivated": "󰅶"
     },
-    "tooltip-format": "Idle inhibitor is {state}"
+    "tooltip": true,
+    "tooltip-format": "Caffeine is {!state}"
   },
+
   "network": {
     "format": "{icon}",
     "format-icons": {
@@ -105,6 +94,5 @@
     },
     "tooltip": true,
     "on-click": "~/.config/sway/scripts/toggleBlueman.sh"
-  },
- }
+  }
 }

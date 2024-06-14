@@ -6,9 +6,10 @@ set $up k
 set $right l
 
 set $term alacritty 
-set $browser google-chrome-beta
-set $menu rofi -i -show drun -modi drun -show-icons 
-set $filemanager nemo
+set $browser google-chrome
+set $menu ~/.config/rofi/launchers/type-1/launcher.sh
+
+set $filemanager nautilus
 
 # Keybindings
 
@@ -23,7 +24,7 @@ bindsym $mod+q kill
 bindsym $mod+Shift+c reload
 
 # Start your launcher
-bindsym $mod+d exec $menu
+bindsym $mod+d exec --no-startup-id $menu
 
 # Firefox
 bindsym $mod+w exec $browser
@@ -140,3 +141,12 @@ bindsym XF86AudioPlay exec playerctl play-pause
 bindsym XF86AudioNext exec playerctl next
 bindsym XF86AudioPrev exec playerctl previous
 bindsym XF86Search exec bemenu-run
+
+
+exec_always {
+    swayidle -w \
+        timeout 300 'swaylock -f -c 000000' \
+        timeout 600 'swaymsg "output * dpms off"' \
+        resume 'swaymsg "output * dpms on"' \
+        before-sleep 'swaylock -f -c 000000'
+}
