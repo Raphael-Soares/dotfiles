@@ -1,0 +1,98 @@
+{
+  "layer": "bottom",
+  "position": "top",
+  "height": 24,
+  "spacing": 5,
+  "modules-left": ["sway/workspaces", "sway/mode"],
+  "modules-center": ["custom/spotify"],
+  "modules-right": ["tray", "battery", "pulseaudio", "clock"],
+
+  "clock": {
+    "format": "{:%d %b %H:%M}",
+    "interval": 1,
+    "on-click":"/home/raphael/.config/sway/scripts/toggleCalendar.sh",
+    "calendar": {
+      "mode": "month",
+      "mode-mon-col": 4,
+      "weeks-pos": "right",
+      "on-scroll": 1,
+      "on-click-right": "mode",
+      "format": {
+        "months": "<span color='#c0caf5'><b>{}</b></span>",
+        "days": "<span color='#c0caf5'><b>{}</b></span>",
+        "weeks": "<span color='#7dcfff'><b>W{}</b></span>",
+        "weekdays": "<span color='#ff9e64'><b>{}</b></span>",
+        "today": "<span color='#f7768e'><b><u>{}</u></b></span>"
+      }
+    }
+  },
+  "battery": {
+    "format": "{icon} {capacity}%",
+    "format-icons": ["󰁺", "󰁻", "󰁼", "󰁽", "󰁾", "󰁿", "󰂀", "󰂁", "󰂂", "󰂄"],
+    "format-time": "{H}h{M}m",
+    "format-charging": "{icon} {capacity}% - {time}",
+    "format-charging-icons": ["󰢜", "󰂆", "󰂇", "󰂈", "󰢝", "󰢝", "󰢞", "󰂊", "󰂋", "󰂅"],
+    "format-full": "{icon}",
+    "interval": 10,
+    "tooltip": false,
+    "on-click": "2"
+  },
+  "pulseaudio": {
+    "scroll-step": 5,
+    "format": "{icon} {volume}%",
+    "format-icons": {
+      "default": ["󰝟", "󰕿", "󰖀", "󰕾"]
+    },
+    "tooltip-format": "Volume: {volume}\n{desc}",
+    "interval": 1,
+    "tooltip": true,
+    "on-click": "~/.config/sway/scripts/togglePavucontrol.sh"
+  },
+  "tray": {
+    "show-passive-items": true,
+    "spacing": 8,
+    "icon-size": 14
+  },
+  "custom/spotify": {
+    "exec": "/usr/bin/python3 ~/.config/waybar/modules/mediaplayer.py --player spotify",
+    "format": "  {}",
+    "return-type": "json",
+    "on-click": "playerctl play-pause",
+    "on-scroll-up": "playerctl next",
+    "on-scroll-down": "playerctl previous"
+  },
+  "idle_inhibitor": {
+    "format": "{icon}",
+    "format-icons": {
+      "activated": "󰾪",
+      "deactivated": "󰅶"
+    },
+    "tooltip": true,
+    "tooltip-format": "Caffeine is {!state}"
+  },
+
+  "network": {
+    "format": "{icon}",
+    "format-icons": {
+      "wifi": "󰖩",
+      "ethernet": "󰈀",
+      "disconnected": "󱚵",
+      "disabled": "󰖪"
+    },
+    "tooltip-format-wifi": "ESSID: {essid}\nSignal strength: {signalStrength}%\nIP: {ipaddr}/{cidr}",
+    "tooltip-format-ethernet": "Interface: {ifname}\nIP: {ipaddr}/{cidr}",
+    "interval": 5,
+    "on-click": "nm-applet"
+  },
+  "bluetooth": {
+    "format": "{icon}",
+    "format-icons": {
+      "connected": "󰂱",
+      "disconnected": "󰂲",
+      "disabled": "󰂲",
+      "enabled": ""
+    },
+    "tooltip": true,
+    "on-click": "~/.config/sway/scripts/toggleBlueman.sh"
+  }
+}

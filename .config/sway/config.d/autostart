@@ -1,0 +1,6 @@
+exec ~/.config/sway/scripts/gsettings
+exec ~/.config/sway/scripts/trayicons.sh
+exec bitwarden-desktop 
+exec wmname LG3D
+exec eval $(gnome-keyring-daemon --start)
+exec export SSH_AUTH_SOCK
