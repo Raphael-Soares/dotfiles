@@ -3,14 +3,21 @@
   "position": "top",
   "height": 24,
   "spacing": 5,
-  "modules-left": ["sway/workspaces", "sway/mode"],
-  "modules-center": ["custom/spotify"],
-  "modules-right": ["tray", "battery", "pulseaudio", "clock"],
-
+  "modules-left": [
+    "sway/workspaces",
+    "sway/mode"
+  ],
+  "modules-center": [],
+  "modules-right": [
+    "tray",
+    "battery",
+    "pulseaudio",
+    "clock"
+  ],
   "clock": {
     "format": "{:%d %b %H:%M}",
     "interval": 1,
-    "on-click":"/home/raphael/.config/sway/scripts/toggleCalendar.sh",
+    "on-click": "/home/raphael/.config/sway/scripts/toggleCalendar.sh",
     "calendar": {
       "mode": "month",
       "mode-mon-col": 4,
@@ -28,10 +35,32 @@
   },
   "battery": {
     "format": "{icon} {capacity}%",
-    "format-icons": ["󰁺", "󰁻", "󰁼", "󰁽", "󰁾", "󰁿", "󰂀", "󰂁", "󰂂", "󰂄"],
+    "format-icons": [
+      "󰁺",
+      "󰁻",
+      "󰁼",
+      "󰁽",
+      "󰁾",
+      "󰁿",
+      "󰂀",
+      "󰂁",
+      "󰂂",
+      "󰂄"
+    ],
     "format-time": "{H}h{M}m",
     "format-charging": "{icon} {capacity}% - {time}",
-    "format-charging-icons": ["󰢜", "󰂆", "󰂇", "󰂈", "󰢝", "󰢝", "󰢞", "󰂊", "󰂋", "󰂅"],
+    "format-charging-icons": [
+      "󰢜",
+      "󰂆",
+      "󰂇",
+      "󰂈",
+      "󰢝",
+      "󰢝",
+      "󰢞",
+      "󰂊",
+      "󰂋",
+      "󰂅"
+    ],
     "format-full": "{icon}",
     "interval": 10,
     "tooltip": false,
@@ -41,7 +70,12 @@
     "scroll-step": 5,
     "format": "{icon} {volume}%",
     "format-icons": {
-      "default": ["󰝟", "󰕿", "󰖀", "󰕾"]
+      "default": [
+        "󰝟",
+        "󰕿",
+        "󰖀",
+        "󰕾"
+      ]
     },
     "tooltip-format": "Volume: {volume}\n{desc}",
     "interval": 1,
@@ -50,8 +84,8 @@
   },
   "tray": {
     "show-passive-items": true,
-    "spacing": 8,
-    "icon-size": 14
+    "spacing": 5,
+    "icon-size": 12
   },
   "custom/spotify": {
     "exec": "/usr/bin/python3 ~/.config/waybar/modules/mediaplayer.py --player spotify",
@@ -70,7 +104,6 @@
     "tooltip": true,
     "tooltip-format": "Caffeine is {!state}"
   },
-
   "network": {
     "format": "{icon}",
     "format-icons": {
