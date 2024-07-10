@@ -1,0 +1,27 @@
+<application>
+  <component name="Trusted.Paths">
+    <option name="TRUSTED_PROJECT_PATHS">
+      <map>
+        <entry key="$USER_HOME$/Desktop/Alura/api" value="true" />
+        <entry key="$USER_HOME$/FipeMatch" value="true" />
+        <entry key="$USER_HOME$/exercicos-java" value="true" />
+        <entry key="$USER_HOME$/Área de trabalho/exercicos-java" value="true" />
+        <entry key="$USER_HOME$/Área de trabalho/fipematch" value="true" />
+        <entry key="$USER_HOME$/Área de trabalho/juntamedic-backend" value="true" />
+        <entry key="$USER_HOME$/Área de trabalho/screematch-frases" value="true" />
+        <entry key="$USER_HOME$/Área de trabalho/screenmatch" value="true" />
+        <entry key="$USER_HOME$/Área de trabalho/screenmatch-api" value="true" />
+        <entry key="$USER_HOME$/Área de trabalho/screenmatch-frases" value="true" />
+        <entry key="$USER_HOME$/Área de trabalho/screensound" value="true" />
+      </map>
+    </option>
+  </component>
+  <component name="Trusted.Paths.Settings">
+    <option name="TRUSTED_PATHS">
+      <list>
+        <option value="$USER_HOME$/Área de trabalho" />
+        <option value="$USER_HOME$/Desktop/Alura" />
+      </list>
+    </option>
+  </component>
+</application>

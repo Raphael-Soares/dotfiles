@@ -1,0 +1,8 @@
+select sysdate from dual
+
+
+
+
+
+
+

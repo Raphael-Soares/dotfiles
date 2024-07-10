@@ -1,0 +1,1 @@
+SELECT * FROM series WHERE series. <= 5 AND  series.avaliacao >= 7.5

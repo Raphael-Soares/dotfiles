@@ -1,0 +1,396 @@
+<project version="4">
+  <component name="BookmarksManager">
+    <option name="groups">
+      <GroupState>
+        <option name="name" value="juntamedic-backend" />
+      </GroupState>
+    </option>
+  </component>
+  <component name="FileEditorManager">
+    <leaf ideFingerprint="n5j486u0nd" SIDE_TABS_SIZE_LIMIT_KEY="-1">
+      <file current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/juntamedica/processo/service/ProcessoServiceImpl.java">
+          <provider editor-type-id="text-editor" selected="true">
+            <state relative-caret-position="270">
+              <caret line="4720" column="51" selection-start-line="4720" selection-start-column="51" selection-end-line="4720" selection-end-column="51" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file>
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/juntamedica/processocontraktorparte/factory/ProcessoContraktorParteFactory.java">
+          <provider editor-type-id="text-editor" selected="true">
+            <state relative-caret-position="352">
+              <caret line="28" selection-start-line="28" selection-end-line="28" selection-end-column="55" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/juntamedica/processocontraktorparte/payload/ProcessoContraktorParteRequest.java">
+          <provider editor-type-id="text-editor" selected="true">
+            <state relative-caret-position="176">
+              <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/juntamedica/processocontraktorparte/ProcessoContraktorParte.java">
+          <provider editor-type-id="text-editor" selected="true">
+            <state relative-caret-position="-353">
+              <caret line="25" column="13" selection-start-line="25" selection-start-column="13" selection-end-line="25" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/juntamedica/processocontraktorparte/ProcessoContraktorParteRepository.java">
+          <provider editor-type-id="text-editor" selected="true">
+            <state relative-caret-position="88">
+              <caret line="4" column="17" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTypeUsageLocalSummary"><![CDATA[{
+  "data": {
+    "JAVA": {
+      "usageCount": 24,
+      "lastUsed": 1719947935289
+    },
+    "Properties": {
+      "usageCount": 1,
+      "lastUsed": 1719940776051
+    },
+    "Markdown": {
+      "usageCount": 1,
+      "lastUsed": 1719940759643
+    }
+  }
+}]]></component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>realizar</find>
+    </findStrings>
+    <replaceStrings>
+      <replace />
+    </replaceStrings>
+  </component>
+  <component name="GitSEFilterConfiguration">{}</component>
+  <component name="IdeDocumentHistory">
+    <changedPaths>
+      <option value="$PROJECT_DIR$/src/main/java/com/juntamedica/processo/service/ProcessoServiceImpl.java" />
+      <option value="$PROJECT_DIR$/src/main/java/com/juntamedica/processocontraktorparte/factory/ProcessoContraktorParteFactory.java" />
+    </changedPaths>
+  </component>
+  <component name="IgnoredFileRootStore">
+    <option name="generatedRoots">
+      <set>
+        <option value="$PROJECT_DIR$/.idea" />
+      </set>
+    </option>
+  </component>
+  <component name="LanguageUsageStatistics">
+    <language id="JAVA">
+      <summary usageCount="24" lastUsage="1719947935289" />
+    </language>
+    <language id="Markdown">
+      <summary usageCount="1" lastUsage="1719940759646" />
+    </language>
+    <language id="Properties">
+      <summary usageCount="1" lastUsage="1719940776051" />
+    </language>
+  </component>
+  <component name="MavenProjectNavigator">
+    <option name="groupStructurally" value="true" />
+    <treeState>
+      <expand />
+      <select />
+    </treeState>
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1" />
+    <panes>
+      <pane id="PackagesPane" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="juntamedic-backend" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dir{file:///home/raphael/Área de trabalho/juntamedic-backend}" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="juntamedic-backend" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dir{file:///home/raphael/Área de trabalho/juntamedic-backend}" type="462c0819:PsiDirectoryNode" />
+              <item name="dir{file:///home/raphael/Área de trabalho/juntamedic-backend/src}" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="juntamedic-backend" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dir{file:///home/raphael/Área de trabalho/juntamedic-backend}" type="462c0819:PsiDirectoryNode" />
+              <item name="dir{file:///home/raphael/Área de trabalho/juntamedic-backend/src}" type="462c0819:PsiDirectoryNode" />
+              <item name="dir{file:///home/raphael/Área de trabalho/juntamedic-backend/src/main}" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="juntamedic-backend" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dir{file:///home/raphael/Área de trabalho/juntamedic-backend}" type="462c0819:PsiDirectoryNode" />
+              <item name="dir{file:///home/raphael/Área de trabalho/juntamedic-backend/src}" type="462c0819:PsiDirectoryNode" />
+              <item name="dir{file:///home/raphael/Área de trabalho/juntamedic-backend/src/main}" type="462c0819:PsiDirectoryNode" />
+              <item name="dir{file:///home/raphael/Área de trabalho/juntamedic-backend/src/main/java}" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="juntamedic-backend" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dir{file:///home/raphael/Área de trabalho/juntamedic-backend}" type="462c0819:PsiDirectoryNode" />
+              <item name="dir{file:///home/raphael/Área de trabalho/juntamedic-backend/src}" type="462c0819:PsiDirectoryNode" />
+              <item name="dir{file:///home/raphael/Área de trabalho/juntamedic-backend/src/main}" type="462c0819:PsiDirectoryNode" />
+              <item name="dir{file:///home/raphael/Área de trabalho/juntamedic-backend/src/main/java}" type="462c0819:PsiDirectoryNode" />
+              <item name="dir{file:///home/raphael/Área de trabalho/juntamedic-backend/src/main/java/com/juntamedica}" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="juntamedic-backend" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dir{file:///home/raphael/Área de trabalho/juntamedic-backend}" type="462c0819:PsiDirectoryNode" />
+              <item name="dir{file:///home/raphael/Área de trabalho/juntamedic-backend/src}" type="462c0819:PsiDirectoryNode" />
+              <item name="dir{file:///home/raphael/Área de trabalho/juntamedic-backend/src/main}" type="462c0819:PsiDirectoryNode" />
+              <item name="dir{file:///home/raphael/Área de trabalho/juntamedic-backend/src/main/java}" type="462c0819:PsiDirectoryNode" />
+              <item name="dir{file:///home/raphael/Área de trabalho/juntamedic-backend/src/main/java/com/juntamedica}" type="462c0819:PsiDirectoryNode" />
+              <item name="dir{file:///home/raphael/Área de trabalho/juntamedic-backend/src/main/java/com/juntamedica/modelocartanotificacao}" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="juntamedic-backend" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dir{file:///home/raphael/Área de trabalho/juntamedic-backend}" type="462c0819:PsiDirectoryNode" />
+              <item name="dir{file:///home/raphael/Área de trabalho/juntamedic-backend/src}" type="462c0819:PsiDirectoryNode" />
+              <item name="dir{file:///home/raphael/Área de trabalho/juntamedic-backend/src/main}" type="462c0819:PsiDirectoryNode" />
+              <item name="dir{file:///home/raphael/Área de trabalho/juntamedic-backend/src/main/java}" type="462c0819:PsiDirectoryNode" />
+              <item name="dir{file:///home/raphael/Área de trabalho/juntamedic-backend/src/main/java/com/juntamedica}" type="462c0819:PsiDirectoryNode" />
+              <item name="dir{file:///home/raphael/Área de trabalho/juntamedic-backend/src/main/java/com/juntamedica/modelocartanotificacao}" type="462c0819:PsiDirectoryNode" />
+              <item name="dir{file:///home/raphael/Área de trabalho/juntamedic-backend/src/main/java/com/juntamedica/modelocartanotificacao/service}" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="juntamedic-backend" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dir{file:///home/raphael/Área de trabalho/juntamedic-backend}" type="462c0819:PsiDirectoryNode" />
+              <item name="dir{file:///home/raphael/Área de trabalho/juntamedic-backend/src}" type="462c0819:PsiDirectoryNode" />
+              <item name="dir{file:///home/raphael/Área de trabalho/juntamedic-backend/src/main}" type="462c0819:PsiDirectoryNode" />
+              <item name="dir{file:///home/raphael/Área de trabalho/juntamedic-backend/src/main/java}" type="462c0819:PsiDirectoryNode" />
+              <item name="dir{file:///home/raphael/Área de trabalho/juntamedic-backend/src/main/java/com/juntamedica}" type="462c0819:PsiDirectoryNode" />
+              <item name="dir{file:///home/raphael/Área de trabalho/juntamedic-backend/src/main/java/com/juntamedica/processo}" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="juntamedic-backend" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dir{file:///home/raphael/Área de trabalho/juntamedic-backend}" type="462c0819:PsiDirectoryNode" />
+              <item name="dir{file:///home/raphael/Área de trabalho/juntamedic-backend/src}" type="462c0819:PsiDirectoryNode" />
+              <item name="dir{file:///home/raphael/Área de trabalho/juntamedic-backend/src/main}" type="462c0819:PsiDirectoryNode" />
+              <item name="dir{file:///home/raphael/Área de trabalho/juntamedic-backend/src/main/java}" type="462c0819:PsiDirectoryNode" />
+              <item name="dir{file:///home/raphael/Área de trabalho/juntamedic-backend/src/main/java/com/juntamedica}" type="462c0819:PsiDirectoryNode" />
+              <item name="dir{file:///home/raphael/Área de trabalho/juntamedic-backend/src/main/java/com/juntamedica/processo}" type="462c0819:PsiDirectoryNode" />
+              <item name="dir{file:///home/raphael/Área de trabalho/juntamedic-backend/src/main/java/com/juntamedica/processo/service}" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="juntamedic-backend" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dir{file:///home/raphael/Área de trabalho/juntamedic-backend}" type="462c0819:PsiDirectoryNode" />
+              <item name="dir{file:///home/raphael/Área de trabalho/juntamedic-backend/src}" type="462c0819:PsiDirectoryNode" />
+              <item name="dir{file:///home/raphael/Área de trabalho/juntamedic-backend/src/main}" type="462c0819:PsiDirectoryNode" />
+              <item name="dir{file:///home/raphael/Área de trabalho/juntamedic-backend/src/main/java}" type="462c0819:PsiDirectoryNode" />
+              <item name="dir{file:///home/raphael/Área de trabalho/juntamedic-backend/src/main/java/com/juntamedica}" type="462c0819:PsiDirectoryNode" />
+              <item name="dir{file:///home/raphael/Área de trabalho/juntamedic-backend/src/main/java/com/juntamedica/processocontraktorparte}" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="juntamedic-backend" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dir{file:///home/raphael/Área de trabalho/juntamedic-backend}" type="462c0819:PsiDirectoryNode" />
+              <item name="dir{file:///home/raphael/Área de trabalho/juntamedic-backend/src}" type="462c0819:PsiDirectoryNode" />
+              <item name="dir{file:///home/raphael/Área de trabalho/juntamedic-backend/src/main}" type="462c0819:PsiDirectoryNode" />
+              <item name="dir{file:///home/raphael/Área de trabalho/juntamedic-backend/src/main/java}" type="462c0819:PsiDirectoryNode" />
+              <item name="dir{file:///home/raphael/Área de trabalho/juntamedic-backend/src/main/java/com/juntamedica}" type="462c0819:PsiDirectoryNode" />
+              <item name="dir{file:///home/raphael/Área de trabalho/juntamedic-backend/src/main/java/com/juntamedica/processocontraktorparte}" type="462c0819:PsiDirectoryNode" />
+              <item name="dir{file:///home/raphael/Área de trabalho/juntamedic-backend/src/main/java/com/juntamedica/processocontraktorparte/factory}" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="juntamedic-backend" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dir{file:///home/raphael/Área de trabalho/juntamedic-backend}" type="462c0819:PsiDirectoryNode" />
+              <item name="dir{file:///home/raphael/Área de trabalho/juntamedic-backend/src}" type="462c0819:PsiDirectoryNode" />
+              <item name="dir{file:///home/raphael/Área de trabalho/juntamedic-backend/src/main}" type="462c0819:PsiDirectoryNode" />
+              <item name="dir{file:///home/raphael/Área de trabalho/juntamedic-backend/src/main/java}" type="462c0819:PsiDirectoryNode" />
+              <item name="dir{file:///home/raphael/Área de trabalho/juntamedic-backend/src/main/java/com/juntamedica}" type="462c0819:PsiDirectoryNode" />
+              <item name="dir{file:///home/raphael/Área de trabalho/juntamedic-backend/src/main/java/com/juntamedica/processocontraktorparte}" type="462c0819:PsiDirectoryNode" />
+              <item name="dir{file:///home/raphael/Área de trabalho/juntamedic-backend/src/main/java/com/juntamedica/processocontraktorparte/payload}" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="juntamedic-backend" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dir{file:///home/raphael/Área de trabalho/juntamedic-backend}" type="462c0819:PsiDirectoryNode" />
+              <item name="dir{file:///home/raphael/Área de trabalho/juntamedic-backend/src}" type="462c0819:PsiDirectoryNode" />
+              <item name="dir{file:///home/raphael/Área de trabalho/juntamedic-backend/src/main}" type="462c0819:PsiDirectoryNode" />
+              <item name="dir{file:///home/raphael/Área de trabalho/juntamedic-backend/src/main/resources}" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="8336000" />
+  </component>
+  <component name="ToolWindowManager">
+    <layoutV2>
+      <window_info id="Bookmarks" show_stripe_button="false" side_tool="true" />
+      <window_info id="JPA Explorer" show_stripe_button="false" side_tool="true" />
+      <window_info id="Merge Requests" show_stripe_button="false" />
+      <window_info id="Pull Requests" show_stripe_button="false" />
+      <window_info id="Persistence" show_stripe_button="false" side_tool="true" />
+      <window_info id="Learn" show_stripe_button="false" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2408854" />
+      <window_info id="Commit" order="1" weight="0.25" />
+      <window_info id="Structure" order="2" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Database Changes" show_stripe_button="false" />
+      <window_info anchor="bottom" id="TypeScript" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Profiler" show_stripe_button="false" />
+      <window_info anchor="bottom" id="TODO" show_stripe_button="false" />
+      <window_info anchor="bottom" id="File Transfer" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="0" />
+      <window_info anchor="bottom" id="Problems" order="1" />
+      <window_info anchor="bottom" id="Problems View" order="2" />
+      <window_info anchor="bottom" id="Terminal" order="3" />
+      <window_info anchor="bottom" id="Build" order="4" />
+      <window_info anchor="bottom" id="Services" order="5" />
+      <window_info anchor="right" id="Endpoints" show_stripe_button="false" />
+      <window_info anchor="right" id="documentation.v2" show_stripe_button="false" side_tool="true" />
+      <window_info anchor="right" id="Coverage" show_stripe_button="false" side_tool="true" />
+      <window_info anchor="right" id="Beans" show_stripe_button="false" />
+      <window_info anchor="right" content_ui="combo" id="Notifications" order="0" weight="0.25" />
+      <window_info anchor="right" id="AIAssistant" order="1" weight="0.25" />
+      <window_info anchor="right" id="Database" order="2" weight="0.25" />
+      <window_info anchor="right" id="Gradle" order="3" weight="0.25" />
+      <window_info anchor="right" id="Maven" order="4" weight="0.25" />
+      <window_info anchor="right" id="JPA Buddy" order="4" weight="0.32994792" />
+      <unified_weights left="0.2408854" right="0.32994792" />
+    </layoutV2>
+    <recentWindows>
+      <value>Project</value>
+    </recentWindows>
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="623" y="279" width="827" height="703" key="search.everywhere.popup" timestamp="1719941220726">
+      <screen x="0" y="24" width="1920" height="1056" />
+    </state>
+    <state x="623" y="279" width="827" height="703" key="search.everywhere.popup/0.24.1920.1056@0.24.1920.1056" timestamp="1719941220726" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/application.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="418">
+          <caret line="19" column="31" lean-forward="true" selection-start-line="19" selection-start-column="31" selection-end-line="19" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/juntamedica/JuntaMedicaApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="352">
+          <caret line="26" selection-start-line="26" selection-end-line="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/juntamedica/processo/ProcessoController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret line="156" column="35" selection-start-line="156" selection-start-column="35" selection-end-line="156" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/juntamedica/modelocarta/ModeloCartaController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret line="29" column="13" selection-start-line="29" selection-start-column="13" selection-end-line="29" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/juntamedica/modelocarta/ModeloCartaRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="87">
+          <caret line="11" column="17" selection-start-line="11" selection-start-column="17" selection-end-line="11" selection-end-column="17" />
+          <folding>
+            <element signature="e#0#162#1" expanded="true" />
+            <element signature="e#0#270#1" expanded="true" />
+            <element signature="e#0#412#0" expanded="true" />
+            <element signature="e#0#113#1" expanded="true" />
+            <element signature="e#0#119#1" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/juntamedica/modelocartanotificacao/service/ModeloCartaNotificacaoService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="660">
+          <caret line="37" lean-forward="true" selection-start-line="37" selection-end-line="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/juntamedica/processo/service/ProcessoService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="302">
+          <caret line="61" column="24" selection-start-line="61" selection-start-column="9" selection-end-line="61" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/juntamedica/modelocartanotificacao/factory/ModeloCartaNotificacaoFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="302">
+          <caret line="32" column="42" selection-start-line="32" selection-start-column="42" selection-end-line="32" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/juntamedica/modelocartanotificacao/ModeloCartaNotificacao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="28" column="13" selection-start-line="28" selection-start-column="13" selection-end-line="28" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/juntamedica/modelocartanotificacao/service/ModeloCartaNotificacaoServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="528">
+          <caret line="61" column="49" selection-start-line="61" selection-start-column="49" selection-end-line="61" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/juntamedica/processo/service/ProcessoServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="4720" column="51" selection-start-line="4720" selection-start-column="51" selection-end-line="4720" selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/juntamedica/processocontraktorparte/ProcessoContraktorParteRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="88">
+          <caret line="4" column="17" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/juntamedica/processocontraktorparte/ProcessoContraktorParte.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-353">
+          <caret line="25" column="13" selection-start-line="25" selection-start-column="13" selection-end-line="25" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/juntamedica/processocontraktorparte/payload/ProcessoContraktorParteRequest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/juntamedica/processocontraktorparte/factory/ProcessoContraktorParteFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="352">
+          <caret line="28" selection-start-line="28" selection-end-line="28" selection-end-column="55" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

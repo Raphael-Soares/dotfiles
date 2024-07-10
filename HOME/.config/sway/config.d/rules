@@ -1,0 +1,20 @@
+# Windows opacity
+set $opacity 1.0
+for_window [class=".*"] opacity $opacity
+for_window [app_id=".*"] opacity $opacity
+
+for_window [app_id="firefox"] opacity 1.0
+for_window [class="firefox"] opacity 1.0
+for_window [class="Google-chrome"] opacity 1.0
+for_window [app_id="google-chrome"] opacity 1.0
+for_window [app_id="mpv"] opacity 1.0
+for_window [class="mpv"] opacity 1.0
+
+
+# Make windows look like popups
+for_window [app_id="pavucontrol"] floating enable, sticky enable, resize set width 700 px height 600px, move position cursor, move down 35
+
+for_window [app_id="org.gnome.Calendar"]  floating enable, sticky enable, resize set width 550 px height 300px, move position cursor, move down 35
+
+
+

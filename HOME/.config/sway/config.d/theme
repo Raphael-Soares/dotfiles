@@ -1,0 +1,34 @@
+# Color binds
+set $col_focused #e78a4e
+set $col_focused_inactive #d8a657
+set $col_unfocused #3c3836
+set $col_text_dark #32302f
+set $col_text_light #d4be98
+set $col_urgent #ea6962
+set $col_unfocused_border #252423
+
+# class                  border                 background             text             indicator              child_border
+client.focused           $col_focused           $col_focused           $col_text_dark   $col_focused           $col_focused
+client.focused_inactive  $col_focused_inactive  $col_focused_inactive  $col_text_dark   $col_focused_inactive  $col_focused_inactive
+client.unfocused         $col_unfocused_border  $col_unfocused         $col_text_light  $col_unfocused         $col_unfocused
+client.urgent            $col_text_dark         $col_urgent            $col_text_dark   $col_urgent            $col_urgent
+
+# Titlebar
+titlebar_padding 1
+title_align left
+titlebar_border_thickness 1
+
+# Borders
+default_border pixel 1
+smart_borders on
+
+# Gaps
+smart_gaps on
+gaps inner 4
+gaps outer 3
+
+
+# Bar
+bar {
+    swaybar_command waybar
+}

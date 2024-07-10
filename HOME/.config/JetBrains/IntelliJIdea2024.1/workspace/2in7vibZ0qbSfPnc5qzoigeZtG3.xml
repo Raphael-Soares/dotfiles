@@ -1,0 +1,173 @@
+<project version="4">
+  <component name="BookmarksManager">
+    <option name="groups">
+      <GroupState>
+        <option name="name" value="screematch-frases" />
+      </GroupState>
+    </option>
+  </component>
+  <component name="DatabaseView">
+    <expand>
+      <path>
+        <item name="Root Group" type="25e4ec8d:DvRootDsGroup" />
+        <item name="screenmatch_frases@localhost: DSN" type="27e358d6:DataSourceNode" />
+      </path>
+      <path>
+        <item name="Root Group" type="25e4ec8d:DvRootDsGroup" />
+        <item name="screenmatch_frases@localhost: DSN" type="27e358d6:DataSourceNode" />
+        <item name="screenmatch_frases: database" type="162271b6:PgImplModel$Database" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="FileEditorManager">
+    <leaf ideFingerprint="n5j486u0nd" SIDE_TABS_SIZE_LIMIT_KEY="-1" />
+  </component>
+  <component name="FileTypeUsageLocalSummary">{
+  &quot;data&quot;: {
+    &quot;JAVA&quot;: {
+      &quot;usageCount&quot;: 3,
+      &quot;lastUsed&quot;: 1720116168716
+    },
+    &quot;Gradle&quot;: {
+      &quot;usageCount&quot;: 1,
+      &quot;lastUsed&quot;: 1720116485654
+    },
+    &quot;Properties&quot;: {
+      &quot;usageCount&quot;: 2,
+      &quot;lastUsed&quot;: 1720116078153
+    }
+  }
+}</component>
+  <component name="IdeDocumentHistory">
+    <changedPaths>
+      <option value="$PROJECT_DIR$/src/main/resources/application.properties" />
+      <option value="$PROJECT_DIR$/src/main/java/br/com/alura/screematch_frases/model/Frase.java" />
+    </changedPaths>
+  </component>
+  <component name="IgnoredFileRootStore">
+    <option name="generatedRoots">
+      <set>
+        <option value="$PROJECT_DIR$/.idea" />
+      </set>
+    </option>
+  </component>
+  <component name="LanguageUsageStatistics">
+    <language id="Groovy">
+      <summary usageCount="1" lastUsage="1720116485654" />
+    </language>
+    <language id="JAVA">
+      <summary usageCount="3" lastUsage="1720116168716" />
+    </language>
+    <language id="Properties">
+      <summary usageCount="2" lastUsage="1720116078153" />
+    </language>
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1" />
+    <panes>
+      <pane id="PackagesPane" />
+      <pane id="ProjectPane" />
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="RunConfigurationStartHistory">
+    <history>
+      <element setting="Spring Boot.ScreematchFrasesApplication" />
+    </history>
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="1908000" />
+  </component>
+  <component name="ToolWindowManager">
+    <layoutV2>
+      <window_info active="true" id="Project" order="0" visible="true" weight="0.12682292" />
+      <window_info id="Commit" order="1" weight="0.25" />
+      <window_info id="JPA Explorer" order="2" show_stripe_button="false" side_tool="true" weight="0.25703126" />
+      <window_info id="Structure" order="3" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Version Control" order="0" />
+      <window_info anchor="bottom" id="Problems" order="1" />
+      <window_info anchor="bottom" id="Problems View" order="2" />
+      <window_info anchor="bottom" id="Terminal" order="3" />
+      <window_info anchor="bottom" id="Run" order="4" show_stripe_button="false" weight="0.6029552" />
+      <window_info anchor="bottom" id="Services" order="5" />
+      <window_info anchor="bottom" id="Build" order="6" />
+      <window_info anchor="bottom" id="JPA Console" order="7" weight="0.6029552" />
+      <window_info anchor="right" id="JPA Buddy" />
+      <window_info anchor="right" id="Notifications" order="0" weight="0.2502604" />
+      <window_info anchor="right" id="AIAssistant" order="1" weight="0.25" />
+      <window_info anchor="right" id="Database" order="2" weight="0.2502604" />
+      <window_info anchor="right" id="Gradle" order="3" weight="0.25" />
+      <window_info anchor="right" id="Maven" order="4" weight="0.25" />
+      <unified_weights bottom="0.6029552" left="0.12682292" right="0.2502604" />
+    </layoutV2>
+    <recentWindows>
+      <value>Project</value>
+      <value>Database</value>
+      <value>Notifications</value>
+      <value>JPA Explorer</value>
+      <value>JPA Console</value>
+      <value>Run</value>
+    </recentWindows>
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="640" y="467" key="#Assign_Data_Sources" timestamp="1720116404303">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="640" y="467" key="#Assign_Data_Sources/0.0.1920.1080@0.0.1920.1080" timestamp="1720116404303" />
+    <state x="560" y="232" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1720116232586">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="560" y="232" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1080@0.0.1920.1080" timestamp="1720116232586" />
+    <state x="773" y="254" key="#com.intellij.ide.util.MemberChooser" timestamp="1720116013161">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="773" y="254" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1080@0.0.1920.1080" timestamp="1720116013161" />
+    <state x="748" y="328" key="FileChooserDialogImpl" timestamp="1720116645473">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="748" y="328" key="FileChooserDialogImpl/0.0.1920.1080@0.0.1920.1080" timestamp="1720116645473" />
+    <state width="1838" height="590" key="GridCell.Tab.0.bottom" timestamp="1720116587514">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1838" height="590" key="GridCell.Tab.0.bottom/0.0.1920.1080@0.0.1920.1080" timestamp="1720116587514" />
+    <state width="1838" height="590" key="GridCell.Tab.0.center" timestamp="1720116587514">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1838" height="590" key="GridCell.Tab.0.center/0.0.1920.1080@0.0.1920.1080" timestamp="1720116587514" />
+    <state width="1838" height="590" key="GridCell.Tab.0.left" timestamp="1720116587514">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1838" height="590" key="GridCell.Tab.0.left/0.0.1920.1080@0.0.1920.1080" timestamp="1720116587514" />
+    <state width="1838" height="590" key="GridCell.Tab.0.right" timestamp="1720116587514">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1838" height="590" key="GridCell.Tab.0.right/0.0.1920.1080@0.0.1920.1080" timestamp="1720116587514" />
+    <state width="1838" height="590" key="GridCell.Tab.1.bottom" timestamp="1720116587514">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1838" height="590" key="GridCell.Tab.1.bottom/0.0.1920.1080@0.0.1920.1080" timestamp="1720116587514" />
+    <state width="1838" height="590" key="GridCell.Tab.1.center" timestamp="1720116587514">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1838" height="590" key="GridCell.Tab.1.center/0.0.1920.1080@0.0.1920.1080" timestamp="1720116587514" />
+    <state width="1838" height="590" key="GridCell.Tab.1.left" timestamp="1720116587514">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1838" height="590" key="GridCell.Tab.1.left/0.0.1920.1080@0.0.1920.1080" timestamp="1720116587514" />
+    <state width="1838" height="590" key="GridCell.Tab.1.right" timestamp="1720116587514">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1838" height="590" key="GridCell.Tab.1.right/0.0.1920.1080@0.0.1920.1080" timestamp="1720116587514" />
+    <state width="317" height="491" key="HiddenNamespacesPopup" timestamp="1720116450003">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="317" height="491" key="HiddenNamespacesPopup/0.0.1920.1080@0.0.1920.1080" timestamp="1720116450003" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/main/java/br/com/alura/screematch_frases/ScreematchFrasesApplication.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/resources/application.properties" />
+    <entry file="file://$PROJECT_DIR$/settings.gradle" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/br/com/alura/screematch_frases/model/Frase.java" />
+  </component>
+</project>

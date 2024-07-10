@@ -1,0 +1,409 @@
+<project version="4">
+  <component name="BookmarksManager">
+    <option name="groups">
+      <GroupState>
+        <option name="name" value="screensound" />
+      </GroupState>
+    </option>
+  </component>
+  <component name="DatabaseView">
+    <expand />
+    <select />
+  </component>
+  <component name="FileEditorManager">
+    <leaf ideFingerprint="n5j486u0nd">
+      <file current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/br/com/alura/screensound/model/Artista.java">
+          <provider editor-type-id="text-editor" selected="true">
+            <state relative-caret-position="272">
+              <caret line="36" column="40" lean-forward="true" selection-start-line="36" selection-start-column="40" selection-end-line="36" selection-end-column="40" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#480#481#0" expanded="true" />
+                <element signature="e#510#511#0" expanded="true" />
+                <element signature="e#562#563#0" expanded="true" />
+                <element signature="e#600#601#0" expanded="true" />
+                <element signature="e#359#360#0" expanded="true" />
+                <element signature="e#384#385#0" expanded="true" />
+                <element signature="e#418#419#0" expanded="true" />
+                <element signature="e#446#447#0" expanded="true" />
+                <element signature="e#477#478#0" expanded="true" />
+                <element signature="e#504#505#0" expanded="true" />
+                <element signature="e#544#545#0" expanded="true" />
+                <element signature="e#576#577#0" expanded="true" />
+                <element signature="e#612#613#0" expanded="true" />
+                <element signature="e#639#640#0" expanded="true" />
+                <element signature="e#684#685#0" expanded="true" />
+                <element signature="e#716#717#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/br/com/alura/screensound/principal/Principal.java">
+          <provider editor-type-id="text-editor" selected="true">
+            <state relative-caret-position="240">
+              <caret line="110" column="52" lean-forward="true" selection-start-line="110" selection-start-column="52" selection-end-line="110" selection-end-column="52" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#242#1436#1" />
+                <element signature="method#cadastrarArtistas#0;class#Principal#0" />
+                <element signature="method#cadastrarMusicas#0;class#Principal#0" />
+                <element signature="e#3836#3837#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file>
+        <entry file="file://$PROJECT_DIR$/src/main/java/br/com/alura/screensound/repository/ArtistaRepository.java">
+          <provider editor-type-id="text-editor" selected="true">
+            <state relative-caret-position="336">
+              <caret line="16" column="51" selection-start-line="16" selection-start-column="51" selection-end-line="16" selection-end-column="51" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/br/com/alura/screensound/model/Musica.java">
+          <provider editor-type-id="text-editor" selected="true">
+            <state relative-caret-position="189">
+              <caret line="30" column="48" selection-start-line="30" selection-start-column="48" selection-end-line="30" selection-end-column="48" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#394#395#0" expanded="true" />
+                <element signature="e#432#433#0" expanded="true" />
+                <element signature="e#337#338#0" expanded="true" />
+                <element signature="e#362#363#0" expanded="true" />
+                <element signature="e#396#397#0" expanded="true" />
+                <element signature="e#424#425#0" expanded="true" />
+                <element signature="e#455#456#0" expanded="true" />
+                <element signature="e#482#483#0" expanded="true" />
+                <element signature="e#522#523#0" expanded="true" />
+                <element signature="e#554#555#0" expanded="true" />
+                <element signature="e#589#590#0" expanded="true" />
+                <element signature="e#619#620#0" expanded="true" />
+                <element signature="e#666#667#0" expanded="true" />
+                <element signature="e#704#705#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTypeUsageLocalSummary"><![CDATA[{
+  "data": {
+    "JAVA": {
+      "usageCount": 11,
+      "lastUsed": 1719863628397
+    },
+    "Properties": {
+      "usageCount": 3,
+      "lastUsed": 1719861421154
+    }
+  }
+}]]></component>
+  <component name="GitSEFilterConfiguration"><![CDATA[{}]]></component>
+  <component name="IdeDocumentHistory">
+    <changedPaths>
+      <option value="$PROJECT_DIR$/src/main/java/br/com/alura/screensound/Principal/Principal.java" />
+      <option value="$PROJECT_DIR$/src/main/resources/application.properties" />
+      <option value="$PROJECT_DIR$/src/main/java/br/com/alura/screensound/model/TipoArtista.java" />
+      <option value="$PROJECT_DIR$/src/main/java/br/com/alura/screensound/ScreensoundApplication.java" />
+      <option value="$PROJECT_DIR$/src/main/java/br/com/alura/screensound/model/Artista.java" />
+      <option value="$PROJECT_DIR$/src/main/java/br/com/alura/screensound/model/Musica.java" />
+      <option value="$PROJECT_DIR$/src/main/java/br/com/alura/screensound/principal/Principal.java" />
+      <option value="$PROJECT_DIR$/src/main/java/br/com/alura/screensound/repository/ArtistaRepository.java" />
+    </changedPaths>
+  </component>
+  <component name="IgnoredFileRootStore">
+    <option name="generatedRoots">
+      <set>
+        <option value="$PROJECT_DIR$/.idea" />
+      </set>
+    </option>
+  </component>
+  <component name="LanguageUsageStatistics">
+    <language id="JAVA">
+      <summary usageCount="11" lastUsage="1719863628397" />
+    </language>
+    <language id="Properties">
+      <summary usageCount="3" lastUsage="1719861421154" />
+    </language>
+  </component>
+  <component name="MavenProjectNavigator">
+    <option name="groupStructurally" value="true" />
+    <treeState>
+      <expand />
+      <select />
+    </treeState>
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1" />
+    <panes>
+      <pane id="PackagesPane" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="screensound" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dir{file:///home/raphael/Área de trabalho/screensound}" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="screensound" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dir{file:///home/raphael/Área de trabalho/screensound}" type="462c0819:PsiDirectoryNode" />
+              <item name="dir{file:///home/raphael/Área de trabalho/screensound/src}" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="screensound" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dir{file:///home/raphael/Área de trabalho/screensound}" type="462c0819:PsiDirectoryNode" />
+              <item name="dir{file:///home/raphael/Área de trabalho/screensound/src}" type="462c0819:PsiDirectoryNode" />
+              <item name="dir{file:///home/raphael/Área de trabalho/screensound/src/main}" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="screensound" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dir{file:///home/raphael/Área de trabalho/screensound}" type="462c0819:PsiDirectoryNode" />
+              <item name="dir{file:///home/raphael/Área de trabalho/screensound/src}" type="462c0819:PsiDirectoryNode" />
+              <item name="dir{file:///home/raphael/Área de trabalho/screensound/src/main}" type="462c0819:PsiDirectoryNode" />
+              <item name="dir{file:///home/raphael/Área de trabalho/screensound/src/main/java}" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="screensound" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dir{file:///home/raphael/Área de trabalho/screensound}" type="462c0819:PsiDirectoryNode" />
+              <item name="dir{file:///home/raphael/Área de trabalho/screensound/src}" type="462c0819:PsiDirectoryNode" />
+              <item name="dir{file:///home/raphael/Área de trabalho/screensound/src/main}" type="462c0819:PsiDirectoryNode" />
+              <item name="dir{file:///home/raphael/Área de trabalho/screensound/src/main/java}" type="462c0819:PsiDirectoryNode" />
+              <item name="dir{file:///home/raphael/Área de trabalho/screensound/src/main/java/br/com/alura/screensound}" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="screensound" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dir{file:///home/raphael/Área de trabalho/screensound}" type="462c0819:PsiDirectoryNode" />
+              <item name="dir{file:///home/raphael/Área de trabalho/screensound/src}" type="462c0819:PsiDirectoryNode" />
+              <item name="dir{file:///home/raphael/Área de trabalho/screensound/src/main}" type="462c0819:PsiDirectoryNode" />
+              <item name="dir{file:///home/raphael/Área de trabalho/screensound/src/main/java}" type="462c0819:PsiDirectoryNode" />
+              <item name="dir{file:///home/raphael/Área de trabalho/screensound/src/main/java/br/com/alura/screensound}" type="462c0819:PsiDirectoryNode" />
+              <item name="dir{file:///home/raphael/Área de trabalho/screensound/src/main/java/br/com/alura/screensound/model}" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="screensound" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dir{file:///home/raphael/Área de trabalho/screensound}" type="462c0819:PsiDirectoryNode" />
+              <item name="dir{file:///home/raphael/Área de trabalho/screensound/src}" type="462c0819:PsiDirectoryNode" />
+              <item name="dir{file:///home/raphael/Área de trabalho/screensound/src/main}" type="462c0819:PsiDirectoryNode" />
+              <item name="dir{file:///home/raphael/Área de trabalho/screensound/src/main/java}" type="462c0819:PsiDirectoryNode" />
+              <item name="dir{file:///home/raphael/Área de trabalho/screensound/src/main/java/br/com/alura/screensound}" type="462c0819:PsiDirectoryNode" />
+              <item name="dir{file:///home/raphael/Área de trabalho/screensound/src/main/java/br/com/alura/screensound/principal}" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="screensound" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dir{file:///home/raphael/Área de trabalho/screensound}" type="462c0819:PsiDirectoryNode" />
+              <item name="dir{file:///home/raphael/Área de trabalho/screensound/src}" type="462c0819:PsiDirectoryNode" />
+              <item name="dir{file:///home/raphael/Área de trabalho/screensound/src/main}" type="462c0819:PsiDirectoryNode" />
+              <item name="dir{file:///home/raphael/Área de trabalho/screensound/src/main/java}" type="462c0819:PsiDirectoryNode" />
+              <item name="dir{file:///home/raphael/Área de trabalho/screensound/src/main/java/br/com/alura/screensound}" type="462c0819:PsiDirectoryNode" />
+              <item name="dir{file:///home/raphael/Área de trabalho/screensound/src/main/java/br/com/alura/screensound/repository}" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="screensound" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dir{file:///home/raphael/Área de trabalho/screensound}" type="462c0819:PsiDirectoryNode" />
+              <item name="dir{file:///home/raphael/Área de trabalho/screensound/src}" type="462c0819:PsiDirectoryNode" />
+              <item name="dir{file:///home/raphael/Área de trabalho/screensound/src/main}" type="462c0819:PsiDirectoryNode" />
+              <item name="dir{file:///home/raphael/Área de trabalho/screensound/src/main/resources}" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="RunConfigurationStartHistory">
+    <history>
+      <element setting="Spring Boot.ScreensoundApplication" />
+      <element setting="Maven.screensound" />
+    </history>
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="7786000" />
+  </component>
+  <component name="ToolWindowManager">
+    <layoutV2>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2408854" />
+      <window_info id="Commit" order="1" weight="0.25" />
+      <window_info id="Structure" order="2" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Version Control" order="0" />
+      <window_info anchor="bottom" id="Problems" order="1" />
+      <window_info anchor="bottom" id="Problems View" order="2" />
+      <window_info anchor="bottom" id="Terminal" order="3" />
+      <window_info anchor="bottom" id="Run" order="4" show_stripe_button="false" weight="0.5485294" />
+      <window_info anchor="bottom" id="Services" order="4" />
+      <window_info anchor="bottom" id="Build" order="4" />
+      <window_info anchor="right" id="JPA Buddy" />
+      <window_info anchor="right" content_ui="combo" id="Notifications" order="0" weight="0.25" />
+      <window_info anchor="right" id="AIAssistant" order="1" weight="0.25" />
+      <window_info anchor="right" id="Database" order="2" weight="0.32994792" />
+      <window_info anchor="right" id="Gradle" order="3" weight="0.25" />
+      <window_info anchor="right" id="Maven" order="4" weight="0.25" />
+      <unified_weights bottom="0.5485294" left="0.2408854" right="0.32994792" />
+    </layoutV2>
+    <recentWindows>
+      <value>Run</value>
+      <value>Project</value>
+      <value>Database</value>
+    </recentWindows>
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="635" y="490" width="640" height="202" key="#Assign_Data_Sources" timestamp="1719859701143">
+      <screen x="0" y="24" width="1920" height="1056" />
+    </state>
+    <state x="635" y="490" width="640" height="202" key="#Assign_Data_Sources/0.24.1920.1056@0.24.1920.1056" timestamp="1719859701143" />
+    <state x="802" y="427" width="899" height="647" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1719861226747">
+      <screen x="0" y="24" width="1920" height="1056" />
+    </state>
+    <state x="802" y="427" width="899" height="647" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.24.1920.1056@0.24.1920.1056" timestamp="1719861226747" />
+    <state x="768" y="434" width="594" height="602" key="#com.intellij.ide.util.MemberChooser" timestamp="1719859989440">
+      <screen x="0" y="24" width="1920" height="1056" />
+    </state>
+    <state x="768" y="434" width="594" height="602" key="#com.intellij.ide.util.MemberChooser/0.24.1920.1056@0.24.1920.1056" timestamp="1719859989440" />
+    <state width="1838" height="517" key="GridCell.Tab.0.bottom" timestamp="1719864211972">
+      <screen x="0" y="24" width="1920" height="1056" />
+    </state>
+    <state width="1838" height="517" key="GridCell.Tab.0.bottom/0.24.1920.1056@0.24.1920.1056" timestamp="1719864211972" />
+    <state width="1838" height="517" key="GridCell.Tab.0.center" timestamp="1719864211971">
+      <screen x="0" y="24" width="1920" height="1056" />
+    </state>
+    <state width="1838" height="517" key="GridCell.Tab.0.center/0.24.1920.1056@0.24.1920.1056" timestamp="1719864211971" />
+    <state width="1838" height="517" key="GridCell.Tab.0.left" timestamp="1719864211971">
+      <screen x="0" y="24" width="1920" height="1056" />
+    </state>
+    <state width="1838" height="517" key="GridCell.Tab.0.left/0.24.1920.1056@0.24.1920.1056" timestamp="1719864211971" />
+    <state width="1838" height="517" key="GridCell.Tab.0.right" timestamp="1719864211971">
+      <screen x="0" y="24" width="1920" height="1056" />
+    </state>
+    <state width="1838" height="517" key="GridCell.Tab.0.right/0.24.1920.1056@0.24.1920.1056" timestamp="1719864211971" />
+    <state width="1838" height="517" key="GridCell.Tab.1.bottom" timestamp="1719864211972">
+      <screen x="0" y="24" width="1920" height="1056" />
+    </state>
+    <state width="1838" height="517" key="GridCell.Tab.1.bottom/0.24.1920.1056@0.24.1920.1056" timestamp="1719864211972" />
+    <state width="1838" height="517" key="GridCell.Tab.1.center" timestamp="1719864211972">
+      <screen x="0" y="24" width="1920" height="1056" />
+    </state>
+    <state width="1838" height="517" key="GridCell.Tab.1.center/0.24.1920.1056@0.24.1920.1056" timestamp="1719864211972" />
+    <state width="1838" height="517" key="GridCell.Tab.1.left" timestamp="1719864211972">
+      <screen x="0" y="24" width="1920" height="1056" />
+    </state>
+    <state width="1838" height="517" key="GridCell.Tab.1.left/0.24.1920.1056@0.24.1920.1056" timestamp="1719864211972" />
+    <state width="1838" height="517" key="GridCell.Tab.1.right" timestamp="1719864211972">
+      <screen x="0" y="24" width="1920" height="1056" />
+    </state>
+    <state width="1838" height="517" key="GridCell.Tab.1.right/0.24.1920.1056@0.24.1920.1056" timestamp="1719864211972" />
+    <state x="623" y="279" width="730" height="703" key="search.everywhere.popup" timestamp="1719861676683">
+      <screen x="0" y="24" width="1920" height="1056" />
+    </state>
+    <state x="623" y="279" width="730" height="703" key="search.everywhere.popup/0.24.1920.1056@0.24.1920.1056" timestamp="1719861676683" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/main/resources/application.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="64" selection-start-column="50" selection-end-column="64" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/br/com/alura/screensound/model/TipoArtista.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="8" column="4" selection-start-line="8" selection-start-column="4" selection-end-line="8" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/br/com/alura/screensound/ScreensoundApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="504">
+          <caret line="26" column="49" selection-start-line="26" selection-start-column="49" selection-end-line="26" selection-end-column="49" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/br/com/alura/screensound/model/Artista.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="36" column="40" lean-forward="true" selection-start-line="36" selection-start-column="40" selection-end-line="36" selection-end-column="40" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#480#481#0" expanded="true" />
+            <element signature="e#510#511#0" expanded="true" />
+            <element signature="e#562#563#0" expanded="true" />
+            <element signature="e#600#601#0" expanded="true" />
+            <element signature="e#359#360#0" expanded="true" />
+            <element signature="e#384#385#0" expanded="true" />
+            <element signature="e#418#419#0" expanded="true" />
+            <element signature="e#446#447#0" expanded="true" />
+            <element signature="e#477#478#0" expanded="true" />
+            <element signature="e#504#505#0" expanded="true" />
+            <element signature="e#544#545#0" expanded="true" />
+            <element signature="e#576#577#0" expanded="true" />
+            <element signature="e#612#613#0" expanded="true" />
+            <element signature="e#639#640#0" expanded="true" />
+            <element signature="e#684#685#0" expanded="true" />
+            <element signature="e#716#717#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/br/com/alura/screensound/model/Musica.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="30" column="48" selection-start-line="30" selection-start-column="48" selection-end-line="30" selection-end-column="48" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#394#395#0" expanded="true" />
+            <element signature="e#432#433#0" expanded="true" />
+            <element signature="e#337#338#0" expanded="true" />
+            <element signature="e#362#363#0" expanded="true" />
+            <element signature="e#396#397#0" expanded="true" />
+            <element signature="e#424#425#0" expanded="true" />
+            <element signature="e#455#456#0" expanded="true" />
+            <element signature="e#482#483#0" expanded="true" />
+            <element signature="e#522#523#0" expanded="true" />
+            <element signature="e#554#555#0" expanded="true" />
+            <element signature="e#589#590#0" expanded="true" />
+            <element signature="e#619#620#0" expanded="true" />
+            <element signature="e#666#667#0" expanded="true" />
+            <element signature="e#704#705#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/br/com/alura/screensound/principal/Principal.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="110" column="52" lean-forward="true" selection-start-line="110" selection-start-column="52" selection-end-line="110" selection-end-column="52" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#242#1436#1" />
+            <element signature="method#cadastrarArtistas#0;class#Principal#0" />
+            <element signature="method#cadastrarMusicas#0;class#Principal#0" />
+            <element signature="e#3836#3837#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/br/com/alura/screensound/repository/ArtistaRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="336">
+          <caret line="16" column="51" selection-start-line="16" selection-start-column="51" selection-end-line="16" selection-end-column="51" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

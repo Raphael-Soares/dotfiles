@@ -1,0 +1,144 @@
+<project version="4">
+  <component name="BookmarksManager">
+    <option name="groups">
+      <GroupState>
+        <option name="name" value="Aula" />
+      </GroupState>
+    </option>
+  </component>
+  <component name="DatabaseView">
+    <expand />
+    <select />
+  </component>
+  <component name="FileEditorManager">
+    <leaf ideFingerprint="886m7t4a1ang" SIDE_TABS_SIZE_LIMIT_KEY="-1">
+      <file>
+        <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/70c0856a-70c8-44dd-8345-6b982f618b39/console.sql">
+          <provider editor-type-id="text-editor" selected="true" />
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTypeUsageLocalSummary"><![CDATA[{
+  "data": {
+    "SQL": {
+      "usageCount": 2,
+      "lastUsed": 1719333228283
+    }
+  }
+}]]></component>
+  <component name="IdeDocumentHistory">
+    <changedPaths>
+      <option value="$APPLICATION_CONFIG_DIR$/consoles/db/70c0856a-70c8-44dd-8345-6b982f618b39/console.sql" />
+    </changedPaths>
+  </component>
+  <component name="IgnoredFileRootStore">
+    <option name="generatedRoots">
+      <set>
+        <option value="$PROJECT_DIR$/.idea" />
+      </set>
+    </option>
+  </component>
+  <component name="LanguageUsageStatistics">
+    <language id="SQL">
+      <summary usageCount="2" lastUsage="1719333228285" />
+    </language>
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1" />
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="Aula" type="e2ad676d:AttachableProjectViewPane$1$1" />
+              <item name="dir{file:///home/raphael/DataGripProjects/Aula}" type="377199ff:AttachableProjectViewPane$1$1$1" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand>
+              <path>
+                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+                <item name="Database" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+              </path>
+              <path>
+                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+                <item name="Database" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+                <item name="@localhost: root" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+              </path>
+              <path>
+                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+                <item name="Database" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+                <item name="@localhost: root" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+                <item name="{}" type="9fbbdea:ServiceModel$ServiceNode" />
+              </path>
+            </expand>
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="ToolWindowManager">
+    <layoutV2>
+      <window_info content_ui="combo" id="Database" order="0" weight="0.22630209" />
+      <window_info anchor="bottom" id="Version Control" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Services" order="4" weight="0.32990196" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="right" content_ui="combo" id="Project" order="0" weight="0.2408854" />
+      <window_info anchor="right" id="AIAssistant" order="1" weight="0.2408854" />
+      <window_info anchor="right" id="Structure" order="2" side_tool="true" weight="0.25" />
+      <unified_weights bottom="0.32990196" left="0.22630209" right="0.2408854" />
+    </layoutV2>
+    <recentWindows>
+      <value>Database</value>
+      <value>Project</value>
+      <value>Services</value>
+      <value>AIAssistant</value>
+    </recentWindows>
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="555" y="337" width="800" height="661" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1719333316835">
+      <screen x="0" y="24" width="1920" height="1056" />
+    </state>
+    <state x="555" y="337" width="800" height="661" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.24.1920.1056@0.24.1920.1056" timestamp="1719333316835" />
+    <state width="1316" height="294" key="GridCell.Tab.0.bottom" timestamp="1719333321543">
+      <screen x="0" y="24" width="1920" height="1056" />
+    </state>
+    <state width="1316" height="294" key="GridCell.Tab.0.bottom/0.24.1920.1056@0.24.1920.1056" timestamp="1719333321543" />
+    <state width="1316" height="294" key="GridCell.Tab.0.center" timestamp="1719333321543">
+      <screen x="0" y="24" width="1920" height="1056" />
+    </state>
+    <state width="1316" height="294" key="GridCell.Tab.0.center/0.24.1920.1056@0.24.1920.1056" timestamp="1719333321543" />
+    <state width="1316" height="294" key="GridCell.Tab.0.left" timestamp="1719333321539">
+      <screen x="0" y="24" width="1920" height="1056" />
+    </state>
+    <state width="1316" height="294" key="GridCell.Tab.0.left/0.24.1920.1056@0.24.1920.1056" timestamp="1719333321539" />
+    <state width="1316" height="294" key="GridCell.Tab.0.right" timestamp="1719333321543">
+      <screen x="0" y="24" width="1920" height="1056" />
+    </state>
+    <state width="1316" height="294" key="GridCell.Tab.0.right/0.24.1920.1056@0.24.1920.1056" timestamp="1719333321543" />
+    <state x="449" y="241" key="SettingsEditor" timestamp="1719333273580">
+      <screen x="0" y="24" width="1920" height="1056" />
+    </state>
+    <state x="449" y="241" key="SettingsEditor/0.24.1920.1056@0.24.1920.1056" timestamp="1719333273580" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/70c0856a-70c8-44dd-8345-6b982f618b39/console.sql">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+  </component>
+</project>
