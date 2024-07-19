@@ -1,6 +1,7 @@
-exec ~/.config/sway/scripts/gsettings
+exec ~/.config/sway/scripts/gsettings.sh
 exec ~/.config/sway/scripts/trayicons.sh
 exec bitwarden-desktop 
 exec wmname LG3D
 exec eval $(gnome-keyring-daemon --start)
 exec export SSH_AUTH_SOCK
+exec --no-startup-id /usr/lib/polkit-gnome/polkit-gnome-authentication-agent-1

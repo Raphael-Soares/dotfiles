@@ -14,9 +14,9 @@ client.unfocused         $col_unfocused_border  $col_unfocused         $col_text
 client.urgent            $col_text_dark         $col_urgent            $col_text_dark   $col_urgent            $col_urgent
 
 # Titlebar
-titlebar_padding 1
-title_align left
-titlebar_border_thickness 1
+titlebar_padding 3
+title_align center
+titlebar_border_thickness 3
 
 # Borders
 default_border pixel 1

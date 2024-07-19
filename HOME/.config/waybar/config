@@ -3,12 +3,13 @@
   "position": "top",
   "height": 24,
   "spacing": 5,
-  "modules-left": [
-    "sway/workspaces",
-    "sway/mode"
-  ],
+  "modules-left": ["sway/workspaces", "sway/mode"],
   "modules-center": [],
   "modules-right": [
+    "custom/back",
+    "custom/mediaplayer",
+    "custom/foward",
+    "idle_inhibitor",
     "tray",
     "battery",
     "pulseaudio",
@@ -35,32 +36,10 @@
   },
   "battery": {
     "format": "{icon} {capacity}%",
-    "format-icons": [
-      "󰁺",
-      "󰁻",
-      "󰁼",
-      "󰁽",
-      "󰁾",
-      "󰁿",
-      "󰂀",
-      "󰂁",
-      "󰂂",
-      "󰂄"
-    ],
+    "format-icons": ["󰁺", "󰁻", "󰁼", "󰁽", "󰁾", "󰁿", "󰂀", "󰂁", "󰂂", "󰂄"],
     "format-time": "{H}h{M}m",
     "format-charging": "{icon} {capacity}% - {time}",
-    "format-charging-icons": [
-      "󰢜",
-      "󰂆",
-      "󰂇",
-      "󰂈",
-      "󰢝",
-      "󰢝",
-      "󰢞",
-      "󰂊",
-      "󰂋",
-      "󰂅"
-    ],
+    "format-charging-icons": ["󰢜", "󰂆", "󰂇", "󰂈", "󰢝", "󰢝", "󰢞", "󰂊", "󰂋", "󰂅"],
     "format-full": "{icon}",
     "interval": 10,
     "tooltip": false,
@@ -70,30 +49,36 @@
     "scroll-step": 5,
     "format": "{icon} {volume}%",
     "format-icons": {
-      "default": [
-        "󰝟",
-        "󰕿",
-        "󰖀",
-        "󰕾"
-      ]
+      "default": ["󰝟", "󰕿", "󰖀", "󰕾"]
     },
     "tooltip-format": "Volume: {volume}\n{desc}",
     "interval": 1,
     "tooltip": true,
     "on-click": "~/.config/sway/scripts/togglePavucontrol.sh"
   },
+  "custom/back": {
+    "exec": "/usr/bin/python3 ~/.config/waybar/modules/mediaplayer.py --player spotify",
+    "format": "󰒮",
+    "on-click": "playerctl previous"
+  },
+
+  "custom/foward": {
+    "exec": "/usr/bin/python3 ~/.config/waybar/modules/mediaplayer.py --player spotify",
+    "format": "󰒭",
+    "on-click": "playerctl next"
+  },
   "tray": {
     "show-passive-items": true,
     "spacing": 5,
     "icon-size": 12
   },
-  "custom/spotify": {
+  "custom/mediaplayer": {
     "exec": "/usr/bin/python3 ~/.config/waybar/modules/mediaplayer.py --player spotify",
     "format": "  {}",
     "return-type": "json",
-    "on-click": "playerctl play-pause",
-    "on-scroll-up": "playerctl next",
-    "on-scroll-down": "playerctl previous"
+    "on-click": "playerctl play-pause"
+    // "on-scroll-up": "playerctl next",
+    // "on-scroll-down": "playerctl previous"
   },
   "idle_inhibitor": {
     "format": "{icon}",

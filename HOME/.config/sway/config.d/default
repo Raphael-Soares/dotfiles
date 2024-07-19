@@ -72,6 +72,7 @@ bindsym $mod+6 workspace number 6
 bindsym $mod+7 workspace number 7
 bindsym $mod+8 workspace number 8
 bindsym $mod+9 workspace number 9
+
 # Move focused container to workspace
 bindsym $mod+Shift+1 move container to workspace number 1
 bindsym $mod+Shift+2 move container to workspace number 2
@@ -115,6 +116,8 @@ bindsym $mod+Shift+minus move scratchpad
 # Show the next scratchpad window or hide the focused scratchpad window.
 bindsym $mod+minus scratchpad show
 
+# Lock screen
+bindsym Mod1+l exec swaylock
 # Dimiss all dunst notifications
 bindsym $mod+Escape exec dunstctl close-all
 
@@ -159,11 +162,13 @@ bindsym XF86AudioNext exec playerctl next
 bindsym XF86AudioPrev exec playerctl previous
 bindsym XF86Search exec bemenu-run
 
-
+set $locker 'swaylock -i ~/.cache/lockscreen'
 exec_always {
     swayidle -w \
-        timeout 300 'swaylock -f -c 000000' \
-        timeout 600 'swaymsg "output * dpms off"' \
+        timeout 1800 'playerctl pause' \
+        timeout 1800 $locker \
+        timeout 900 'swaymsg "output * dpms off"' \
+        timeout 15 'if pgrep -x swaylock; then swaymsg "output * dpms off"; fi' \
         resume 'swaymsg "output * dpms on"' \
-        before-sleep 'swaylock -f -c 000000'
+        before-sleep $locker
 }

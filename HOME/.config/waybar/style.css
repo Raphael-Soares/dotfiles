@@ -56,8 +56,9 @@ window#waybar {
 #pulseaudio,
 #network,
 #bluetooth,
-/* #tray, */
-
+#custom-back,
+#custom-mediaplayer,
+#custom-foward,
 #tray > .passive > *,
 #tray > .active > *,
 #idle_inhibitor,
@@ -75,8 +76,9 @@ window#waybar {
 #pulseaudio:hover,
 #network:hover,
 #bluetooth:hover,
-/* #tray:hover, */
-
+#custom-back:hover,
+#custom-mediaplayer:hover,
+#custom-foward:hover,
 #idle_inhibitor:hover,
 #custom-clipboard:hover {
   background-color: @black;
@@ -97,4 +99,13 @@ window#waybar {
 
 #clock {
   margin-right: 4px;
+}
+
+#tray.spotify-client {
+  background-color: @red;
+  border-bottom: solid 1px @blacker;
+  padding: 2px 10px;
+  margin: 5px 0;
+  color: @foreground;
+  border-radius: 2px;
 }
