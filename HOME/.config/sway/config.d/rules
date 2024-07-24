@@ -15,7 +15,7 @@ for_window [app_id="org.gnome.Calendar"]  floating enable, sticky enable, resize
 assign [class="teams-for-linux"] 1
 assign [class="Spotify"] 1
 
-assign [app_id="Firefox"] 2
+assign [app_id="firefox"] 2
 assign [class="Google-chrome"] 2
 
 

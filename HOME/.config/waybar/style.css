@@ -45,7 +45,7 @@ window#waybar {
   border-radius: 2px;
 }
 
-#workspaces button.focused {
+#workspaces button.active {
   color: @foreground;
   background-color: @black;
   border-bottom: solid 2px @blue;

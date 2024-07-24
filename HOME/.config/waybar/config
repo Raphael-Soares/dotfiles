@@ -3,13 +3,16 @@
   "position": "top",
   "height": 24,
   "spacing": 5,
-  "modules-left": ["sway/workspaces", "sway/mode"],
-  "modules-center": [],
-  "modules-right": [
+  "modules-left": [
+    "hyprland/workspaces",
+    "sway/mode"
+  ],
+  "modules-center": [
     "custom/back",
     "custom/mediaplayer",
-    "custom/foward",
-    "idle_inhibitor",
+    "custom/foward"
+  ],
+  "modules-right": [
     "tray",
     "battery",
     "pulseaudio",
@@ -18,28 +21,36 @@
   "clock": {
     "format": "{:%d %b %H:%M}",
     "interval": 1,
-    "on-click": "/home/raphael/.config/sway/scripts/toggleCalendar.sh",
-    "calendar": {
-      "mode": "month",
-      "mode-mon-col": 4,
-      "weeks-pos": "right",
-      "on-scroll": 1,
-      "on-click-right": "mode",
-      "format": {
-        "months": "<span color='#c0caf5'><b>{}</b></span>",
-        "days": "<span color='#c0caf5'><b>{}</b></span>",
-        "weeks": "<span color='#7dcfff'><b>W{}</b></span>",
-        "weekdays": "<span color='#ff9e64'><b>{}</b></span>",
-        "today": "<span color='#f7768e'><b><u>{}</u></b></span>"
-      }
-    }
+    "on-click": "~/.local/bin/scripts/toggleCalendar.sh"
   },
   "battery": {
     "format": "{icon} {capacity}%",
-    "format-icons": ["󰁺", "󰁻", "󰁼", "󰁽", "󰁾", "󰁿", "󰂀", "󰂁", "󰂂", "󰂄"],
+    "format-icons": [
+      "󰁺",
+      "󰁻",
+      "󰁼",
+      "󰁽",
+      "󰁾",
+      "󰁿",
+      "󰂀",
+      "󰂁",
+      "󰂂",
+      "󰂄"
+    ],
     "format-time": "{H}h{M}m",
     "format-charging": "{icon} {capacity}% - {time}",
-    "format-charging-icons": ["󰢜", "󰂆", "󰂇", "󰂈", "󰢝", "󰢝", "󰢞", "󰂊", "󰂋", "󰂅"],
+    "format-charging-icons": [
+      "󰢜",
+      "󰂆",
+      "󰂇",
+      "󰂈",
+      "󰢝",
+      "󰢝",
+      "󰢞",
+      "󰂊",
+      "󰂋",
+      "󰂅"
+    ],
     "format-full": "{icon}",
     "interval": 10,
     "tooltip": false,
@@ -49,22 +60,34 @@
     "scroll-step": 5,
     "format": "{icon} {volume}%",
     "format-icons": {
-      "default": ["󰝟", "󰕿", "󰖀", "󰕾"]
+      "default": [
+        "󰝟",
+        "󰕿",
+        "󰕿",
+        "󰕿",
+        "󰖀",
+        "󰖀",
+        "󰖀",
+        "󰕾",
+        "󰕾",
+        "󰕾"
+      ]
     },
     "tooltip-format": "Volume: {volume}\n{desc}",
     "interval": 1,
     "tooltip": true,
-    "on-click": "~/.config/sway/scripts/togglePavucontrol.sh"
+    "on-click": "~/.local/bin/scripts/togglePavucontrol.sh"
   },
   "custom/back": {
     "exec": "/usr/bin/python3 ~/.config/waybar/modules/mediaplayer.py --player spotify",
     "format": "󰒮",
+    "tooltip": "go back",
     "on-click": "playerctl previous"
   },
-
   "custom/foward": {
     "exec": "/usr/bin/python3 ~/.config/waybar/modules/mediaplayer.py --player spotify",
     "format": "󰒭",
+    "tooltip": "go foward",
     "on-click": "playerctl next"
   },
   "tray": {
@@ -77,8 +100,6 @@
     "format": "  {}",
     "return-type": "json",
     "on-click": "playerctl play-pause"
-    // "on-scroll-up": "playerctl next",
-    // "on-scroll-down": "playerctl previous"
   },
   "idle_inhibitor": {
     "format": "{icon}",
@@ -88,29 +109,5 @@
     },
     "tooltip": true,
     "tooltip-format": "Caffeine is {!state}"
-  },
-  "network": {
-    "format": "{icon}",
-    "format-icons": {
-      "wifi": "󰖩",
-      "ethernet": "󰈀",
-      "disconnected": "󱚵",
-      "disabled": "󰖪"
-    },
-    "tooltip-format-wifi": "ESSID: {essid}\nSignal strength: {signalStrength}%\nIP: {ipaddr}/{cidr}",
-    "tooltip-format-ethernet": "Interface: {ifname}\nIP: {ipaddr}/{cidr}",
-    "interval": 5,
-    "on-click": "nm-applet"
-  },
-  "bluetooth": {
-    "format": "{icon}",
-    "format-icons": {
-      "connected": "󰂱",
-      "disconnected": "󰂲",
-      "disabled": "󰂲",
-      "enabled": ""
-    },
-    "tooltip": true,
-    "on-click": "~/.config/sway/scripts/toggleBlueman.sh"
   }
 }
