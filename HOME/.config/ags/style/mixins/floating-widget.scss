@@ -1,0 +1,12 @@
+@mixin floating-widget {
+    @if $shadows {
+        box-shadow: 0 0 5px 0 $shadow-color;
+    }
+
+    margin: max($spacing, 8px);
+    border: $border-width solid $primary-bg;
+    background-color: $bg;
+    color: $fg;
+    border-radius: $radius;
+    padding: $popover-padding;
+}
