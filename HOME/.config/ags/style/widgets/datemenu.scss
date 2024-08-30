@@ -1,5 +1,3 @@
-@import './notifications.scss';
-
 @mixin calendar {
     @include widget;
     padding: $padding * 2 $padding * 2 0;
@@ -12,8 +10,8 @@
         }
 
         &:selected {
-            box-shadow: inset 0 -8px 0 0 transparentize($primary-bg, 0.5), inset 0 0 0 1px $primary-bg;
-            border-radius: $radius * 0.6;
+            border-radius: $radius;
+            background-color: $primary-bg;
         }
 
         &.header {
@@ -32,75 +30,12 @@
         }
 
         font-size: 1.1em;
-        padding: 0.2em;
+        padding: 0.5em 1em;
     }
 }
 
 window#datemenu .datemenu {
     @include floating-widget;
-
-    .notifications {
-        .header {
-            margin-bottom: $spacing;
-            margin-right: $spacing;
-
-            > label {
-                margin-left: $radius * 0.5;
-            }
-
-            button {
-                @include button;
-                padding: $padding * 0.7 $padding;
-            }
-        }
-
-        .notification-scrollable {
-            @include scrollable($top: true, $bottom: true);
-        }
-
-        .notification-list {
-            margin-right: $spacing;
-        }
-
-        .notification {
-            @include notification;
-            @include widget;
-            padding: $padding;
-            margin-bottom: $spacing;
-        }
-
-        .placeholder {
-            image {
-                font-size: 7em;
-            }
-
-            label {
-                font-size: 1.2em;
-            }
-        }
-    }
-
-    separator {
-        background-color: $popover-border-color;
-        border-radius: $radius;
-        margin-right: $spacing;
-    }
-
-    .datemenu {
-        @include spacing;
-    }
-
-    .clock-box {
-        padding: $padding;
-
-        .clock {
-            font-size: 5em;
-        }
-
-        .uptime {
-            color: transparentize($fg, 0.2);
-        }
-    }
 
     .calendar {
         @include calendar;

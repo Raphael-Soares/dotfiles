@@ -5,6 +5,7 @@ window#verification {
 }
 
 window#verification .verification {
+    @include spacing;
     @include floating-widget;
     padding: $popover-padding * 1.5;
     min-width: 300px;

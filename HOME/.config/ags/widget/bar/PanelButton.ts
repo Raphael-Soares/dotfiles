@@ -7,6 +7,7 @@ type PanelButtonProps = ButtonProps & {
 export default ({ window = '', child, setup, ...rest }: PanelButtonProps) =>
     Widget.Button({
         child: Widget.Box({ child }),
+        class_name: 'panel-button',
         setup: (self) => {
             let open = false;
 

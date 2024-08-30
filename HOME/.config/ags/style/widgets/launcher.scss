@@ -1,5 +1,5 @@
-@use "sass:math";
-@use "sass:color";
+@use 'sass:math';
+@use 'sass:color';
 
 window#launcher .launcher {
     @include floating_widget;
@@ -42,7 +42,7 @@ window#launcher .launcher {
     button.app-item {
         @include button($flat: true, $reactive: false);
 
-        >box {
+        > box {
             @include spacing(0.5);
         }
 
@@ -72,7 +72,7 @@ window#launcher .launcher {
             }
 
             .description {
-                color: transparentize($primary-bg, .4);
+                color: transparentize($primary-bg, 0.4);
             }
 
             image {
@@ -94,7 +94,7 @@ window#launcher .launcher {
     button.help,
     button.nix-item {
         @include button($flat: true, $reactive: false);
-        padding: 0 ($padding * .5);
+        padding: 0 ($padding * 0.5);
 
         label {
             transition: $transition;
@@ -107,7 +107,7 @@ window#launcher .launcher {
         }
 
         .description {
-            color: transparentize($fg, .3)
+            color: transparentize($fg, 0.3);
         }
 
         &:hover,
@@ -122,14 +122,14 @@ window#launcher .launcher {
             }
 
             .description {
-                color: transparentize($primary-bg, .3)
+                color: transparentize($primary-bg, 0.3);
             }
         }
     }
 
     button.sh-item {
         @include button($flat: true, $reactive: false);
-        padding: 0 ($padding * .5);
+        padding: 0 ($padding * 0.5);
 
         transition: $transition;
         color: $fg;

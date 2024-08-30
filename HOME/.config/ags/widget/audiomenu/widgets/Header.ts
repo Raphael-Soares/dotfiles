@@ -1,0 +1,36 @@
+import icons from 'lib/icons';
+import { uptime } from 'lib/variables';
+import options from 'options';
+import PowerMenu from 'widget/bar/buttons/PowerMenu';
+
+const battery = await Service.import('battery');
+
+function up(up: number) {
+    const h = Math.floor(up / 60);
+    const m = Math.floor(up % 60);
+    return `${h}h ${m < 10 ? '0' + m : m}m`;
+}
+
+export const Header = () =>
+    Widget.Box(
+        { class_name: 'header horizontal' },
+        Avatar(),
+
+        Widget.Box({
+            vertical: true,
+            vpack: 'center',
+
+            children: [
+                Widget.Box({
+                    visible: battery.bind('available'),
+                    children: [
+                        Widget.Icon({ icon: battery.bind('icon_name') }),
+                        Widget.Label({ label: battery.bind('percent').as((p) => `${p}%`) })
+                    ]
+                }),
+                Widget.Box([Widget.Icon({ icon: icons.ui.time }), Widget.Label({ label: uptime.bind().as(up) })])
+            ]
+        }),
+        Widget.Box({ hexpand: true }),
+        PowerMenu()
+    );

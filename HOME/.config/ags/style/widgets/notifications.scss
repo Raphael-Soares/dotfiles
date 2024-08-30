@@ -48,7 +48,6 @@
 
     button.close-button {
         @include button($flat: true);
-        margin-left: $spacing / 2;
         border-radius: $radius * 0.8;
         min-width: 1.2em;
         min-height: 1.2em;
@@ -64,6 +63,55 @@
     }
 }
 
+.notification-center {
+    @include spacing;
+    @include floating-widget;
+
+    min-height: 300px;
+
+    .notifications {
+        .header {
+            padding: $spacing;
+            margin: $spacing 0;
+
+            > label {
+                margin-left: $radius * 0.5;
+            }
+
+            button {
+                @include button;
+                padding: $padding;
+                margin-left: $spacing;
+            }
+        }
+
+        .notification-scrollable {
+            @include scrollable($top: true, $bottom: true);
+        }
+
+        .notification-list {
+            margin-right: $spacing;
+        }
+
+        .notification {
+            @include notification;
+            @include widget;
+            padding: $padding;
+            margin-bottom: $spacing;
+        }
+
+        .placeholder {
+            image {
+                font-size: 7em;
+            }
+
+            label {
+                font-size: 1.2em;
+            }
+        }
+    }
+}
+
 window.notifications {
     @include unset;
 
@@ -73,7 +121,7 @@ window.notifications {
         border-radius: $radius;
 
         .description {
-            min-width: 350px;
+            min-width: 300px;
         }
     }
 }

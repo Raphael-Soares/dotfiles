@@ -1,13 +1,14 @@
 @use 'sass:color';
 
-$bar-spacing: $spacing * 0.35;
+$bar-spacing: $spacing * 0.3;
 $button-radius: $radius;
 
 @mixin panel-button($flat: true, $reactive: true) {
     @include accs-button($flat, $reactive);
 
-    border-bottom: solid $primary-fg 2px;
     border-radius: $button-radius;
+
+    > *,
     * {
         padding: 0 $bar-spacing;
         padding-top: 1px;
@@ -18,16 +19,8 @@ $button-radius: $radius;
         font-weight: bold;
     }
 
-    &:hover {
-        border-bottom: solid $primary-bg 2px;
-    }
-
-    &.occupied {
-        border-bottom: solid $primary-fg 2px;
-    }
-
-    &.active {
-        border-bottom: solid $primary-bg 2px;
+    > * {
+        padding: $padding * 0.4 $padding * 0.8;
     }
 }
 
@@ -47,63 +40,35 @@ $button-radius: $radius;
 
 .bar {
     transition: $transition;
-    background-color: $bg;
+    background-color: $primary-fg;
 
     .panel-button {
         @include panel-button;
 
-        background-color: $primary-fg;
-        margin: $bar-spacing;
+        margin: $bar-spacing 0.1em;
     }
 
     .workspace-button {
         @include workspace-button;
         transition: $transition * 0.5;
 
+        border-radius: $radius * 0.4;
+
         background-color: $primary-fg;
         margin: $bar-spacing;
 
-        &.occupied {
-            border-bottom: solid $primary-fg 2px;
-        }
-
-        &.active {
-            border-bottom: solid $primary-bg 2px;
+        * {
+            border-radius: $radius * 0.4;
         }
     }
 
-    .media label {
-        margin: 0 ($spacing * 0.5);
-    }
-
-    .powermenu.colored,
-    .recorder {
-        image {
-            color: transparentize($error-bg, 0.3);
-        }
-
-        &:hover image {
-            color: transparentize($error-bg, 0.15);
-        }
-
-        &:active image {
-            color: $primary-fg;
-        }
-    }
-
-    .quicksettings > box > box {
+    .audiomenu > box > box {
         @include spacing($spacing: if($bar-spacing==0, $padding / 2, $bar-spacing + $padding * 2));
-    }
-
-    .quicksettings:not(.active):not(:active) {
-        .bluetooth {
-            color: $fg;
-        }
     }
 
     .battery-bar {
         > * {
-            padding: 0 $padding;
+            padding: 0 $padding * 0.4;
         }
 
         &.low image {

@@ -1,0 +1,64 @@
+window#bluetooth .bluetooth {
+    @include floating-widget;
+    @include spacing;
+
+    min-width: 300px;
+
+    .bluetooth-header {
+        @include button;
+        font-weight: bold;
+
+        image {
+            font-size: 1.3em;
+        }
+
+        label {
+            margin-left: $spacing * 0.3;
+        }
+
+        button {
+            @include button($flat: true);
+
+            padding: $padding * 1.2;
+        }
+
+        &.active {
+            background-color: $primary-bg;
+
+            label,
+            image {
+                color: $primary-fg;
+            }
+        }
+    }
+
+    .bluetooth-list {
+        @include unset;
+        @include widget;
+        padding: $padding;
+        margin-top: $spacing;
+
+        .icon {
+            margin: 0 ($spacing * 0.5);
+            margin-left: $spacing * 0.2;
+        }
+
+        .title {
+            font-weight: bold;
+        }
+
+        separator {
+            margin: ($radius * 0.5);
+            background-color: $border-color;
+        }
+
+        button {
+            @include button($flat: true);
+            padding: ($padding * 0.5);
+
+            image:first-child {
+                margin-right: $spacing * 0.5;
+            }
+        }
+    }
+}

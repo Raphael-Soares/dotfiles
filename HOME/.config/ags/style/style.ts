@@ -13,27 +13,23 @@ const deps = [
     'bar.battery.blocks'
 ];
 
-const { dark, light, blur, scheme, padding, spacing, radius, shadows, widget, border } = options.theme;
+const { colors, blur, padding, spacing, radius, shadows, widget, border } = options.theme;
 
 const popoverPaddingMultiplier = 1.6;
-
-// eslint-disable-next-line @typescript-eslint/no-explicit-any
-const t = (dark: Opt<any> | string, light: Opt<any> | string) => (scheme.value === 'dark' ? `${dark}` : `${light}`);
 
 // eslint-disable-next-line @typescript-eslint/no-explicit-any
 const $ = (name: string, value: string | Opt<any>) => `$${name}: ${value};`;
 
 const variables = () => [
-    $('bg', blur.value ? `transparentize(${t(dark.bg, light.bg)}, ${blur.value / 100})` : t(dark.bg, light.bg)),
-    $('fg', t(dark.fg, light.fg)),
+    $('bg', blur.value ? `transparentize(${colors.bg}, ${blur.value / 100})` : colors.bg),
+    $('fg', colors.fg),
 
-    $('primary-bg', t(dark.primary.bg, light.primary.bg)),
-    $('primary-fg', t(dark.primary.fg, light.primary.fg)),
+    $('primary-bg', colors.primary.bg),
+    $('primary-fg', colors.primary.fg),
 
-    $('error-bg', t(dark.error.bg, light.error.bg)),
-    $('error-fg', t(dark.error.fg, light.error.fg)),
+    $('error-bg', colors.error.bg),
+    $('error-fg', colors.error.fg),
 
-    $('scheme', scheme),
     $('padding', `${padding}pt`),
     $('spacing', `${spacing}pt`),
     $('radius', `${radius}px`),
@@ -41,30 +37,21 @@ const variables = () => [
 
     $('shadows', `${shadows}`),
 
-    $('widget-bg', `transparentize(${t(dark.widget, light.widget)}, ${widget.opacity.value / 100})`),
+    $('widget-bg', `transparentize(${colors.widget}, ${widget.opacity.value / 100})`),
 
-    $('hover-bg', `transparentize(${t(dark.widget, light.widget)}, ${(widget.opacity.value * 0.9) / 100})`),
-    $('hover-fg', `lighten(${t(dark.fg, light.fg)}, 8%)`),
+    $('hover-bg', `transparentize(${colors.widget}, ${(widget.opacity.value * 0.9) / 100})`),
+    $('hover-fg', `lighten(${colors.fg}, 8%)`),
 
     $('border-width', `${border.width}px`),
-    $('border-color', `transparentize(${t(dark.border, light.border)}, ${border.opacity.value / 100})`),
+    $('border-color', `transparentize(${colors.border}, ${border.opacity.value / 100})`),
     $('border', '$border-width solid $border-color'),
 
-    $(
-        'active-gradient',
-        `linear-gradient(to right, ${t(dark.primary.bg, light.primary.bg)}, darken(${t(
-            dark.primary.bg,
-            light.primary.bg
-        )}, 4%))`
-    ),
-    $('shadow-color', t('rgba(0,0,0,.6)', 'rgba(0,0,0,.4)')),
-    $('text-shadow', t('2pt 2pt 2pt $shadow-color', 'none')),
-    $('box-shadow', t('2pt 2pt 2pt 0 $shadow-color, inset 0 0 0 $border-width $border-color', 'none')),
+    $('active-gradient', `linear-gradient(to right, ${colors.primary.bg}, darken(${colors.primary.bg}, 4%))`),
+    $('shadow-color', 'rgba(0,0,0,.6)'),
+    $('text-shadow', '2pt 2pt 2pt $shadow-color'),
+    $('box-shadow', '2pt 2pt 2pt 0 $shadow-color, inset 0 0 0 $border-width $border-color'),
 
-    $(
-        'popover-border-color',
-        `transparentize(${t(dark.border, light.border)}, ${Math.max((border.opacity.value - 1) / 100, 0)})`
-    ),
+    $('popover-border-color', `transparentize(${colors.border}, ${Math.max((border.opacity.value - 1) / 100, 0)})`),
     $('popover-padding', `$padding * ${popoverPaddingMultiplier}`),
     $('popover-radius', radius.value === 0 ? '0' : '$radius + $popover-padding'),
 
@@ -76,7 +63,7 @@ const variables = () => [
     $('bar-battery-blocks', options.bar.battery.blocks),
     $('bar-position', options.bar.position),
     $('hyprland-gaps-multiplier', options.hyprland.gaps),
-    $('screen-corner-multiplier', `${options.bar.corners.value}`)
+    $('screen-corner-multiplier', `${options.bar.corners.value * 0.01}`)
 ];
 
 async function resetCss() {
