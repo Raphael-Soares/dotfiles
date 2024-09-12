@@ -9,10 +9,10 @@ Install dependencies:
 
 ```bash
 # Pacman dependencies
-sudo pacman -S --needed zsh eza stow git curl brightnessctl bluez blueman bluez-utils pipewire-pulse pamixer jq inter-font hyprshot hyprlock hypridle 
+sudo pacman -S --needed zsh eza stow git curl brightnessctl bluez blueman bluez-utils pipewire-pulse pamixer jq inter-font hyprshot hyprlock hypridle sassc dart-sass
 
 # Yay dependencies
-yay -S --needed zsh swayfx waybar rofi-wayland swaylock-effects ttf-jetbrains-mono-nerd
+yay -S --needed aylurs-gtk-shell ttf-jetbrains-mono-nerd
 ```
 
 Then install oh-my-zsh:
