@@ -1,9 +1,9 @@
-@import '../mixins/floating-widget.scss';
-@import '../mixins/widget.scss';
-@import '../mixins/spacing.scss';
-@import '../mixins/unset.scss';
-@import '../mixins/a11y-button.scss';
-@import './bar.scss';
+@import "../mixins/floating-widget.scss";
+@import "../mixins/widget.scss";
+@import "../mixins/spacing.scss";
+@import "../mixins/unset.scss";
+@import "../mixins/a11y-button.scss";
+@import "./bar.scss";
 
 window#greeter {
     background-color: lighten($bg, 6%);
@@ -44,14 +44,15 @@ window#greeter {
             margin-bottom: $spacing;
         }
 
+
         .password {
             entry {
                 @include button;
-                padding: $padding * 0.7 $padding;
-                margin-left: $spacing * 0.5;
+                padding: $padding*.7 $padding;
+                margin-left: $spacing*.5;
             }
 
-            margin: 0 $padding * 4;
+            margin: 0 $padding*4;
             margin-top: $spacing;
         }
 

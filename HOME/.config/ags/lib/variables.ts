@@ -1,37 +1,23 @@
-import GLib from 'gi://GLib';
+import GLib from "gi://GLib"
 // import options from "options"
 //
 // const intval = options.system.fetchInterval.value
 // const tempPath = options.system.temperature.value
 
 export const clock = Variable(GLib.DateTime.new_now_local(), {
-    poll: [1000, () => GLib.DateTime.new_now_local()]
-});
+    poll: [1000, () => GLib.DateTime.new_now_local()],
+})
 
 export const uptime = Variable(0, {
-    poll: [60_000, 'cat /proc/uptime', (line) => Number.parseInt(line.split('.')[0]) / 60]
-});
+    poll: [60_000, "cat /proc/uptime", line =>
+        Number.parseInt(line.split(".")[0]) / 60,
+    ],
+})
 
 export const distro = {
-    id: GLib.get_os_info('ID'),
-    logo: GLib.get_os_info('LOGO')
-};
-
-function isHypridleRunning() {
-    try {
-        let [ok, out, err, exit] = GLib.spawn_command_line_sync('pgrep -x hypridle');
-        return ok && out.length > 0;
-    } catch (e) {
-        return false;
-    }
+    id: GLib.get_os_info("ID"),
+    logo: GLib.get_os_info("LOGO"),
 }
-
-// Variável que verifica o estado do hypridle a cada 10 segundos
-export const hypridleStatus = {
-    isRunning: Variable(isHypridleRunning(), {
-        poll: [1000, isHypridleRunning]
-    })
-};
 
 // const divide = ([total, free]: string[]) => Number.parseInt(free) / Number.parseInt(total)
 //

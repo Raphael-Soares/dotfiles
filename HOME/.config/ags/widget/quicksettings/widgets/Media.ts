@@ -1,11 +1,11 @@
 import { type MprisPlayer } from 'types/service/mpris';
 import icons from 'lib/icons';
 import options from 'options';
-import { icon, sh } from 'lib/utils';
+import { icon } from 'lib/utils';
 
 const mpris = await Service.import('mpris');
 const players = mpris.bind('players');
-const { media } = options.bar;
+const { media } = options.quicksettings;
 
 function lengthStr(length: number) {
     const min = Math.floor(length / 60);
@@ -30,7 +30,7 @@ const Player = (player: MprisPlayer) => {
 
     const title = Widget.Label({
         class_name: 'title',
-        max_width_chars: 30,
+        max_width_chars: 20,
         truncate: 'end',
         hpack: 'start',
         label: player.bind('track_title')
@@ -38,7 +38,7 @@ const Player = (player: MprisPlayer) => {
 
     const artist = Widget.Label({
         class_name: 'artist',
-        max_width_chars: 30,
+        max_width_chars: 20,
         truncate: 'end',
         hpack: 'start',
         label: player.bind('track_artists').as((a) => a.join(', '))
@@ -87,7 +87,7 @@ const Player = (player: MprisPlayer) => {
         vpack: 'start',
         tooltip_text: player.identity || '',
         icon: Utils.merge([player.bind('entry'), media.monochromeIcon.bind()], (e, s) => {
-            const name = `${e}${s ? '-symbolic' : ''}`;
+            const name = `${e}${s ? '' : ''}`;
             return icon(name, icons.fallback.audio);
         })
     });
@@ -144,6 +144,5 @@ export const Media = () =>
     Widget.Box({
         vertical: true,
         class_name: 'media vertical',
-        
         children: players.as((p) => p.map(Player))
     });

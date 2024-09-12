@@ -1,11 +1,11 @@
 @mixin notification() {
     &.critical {
-        box-shadow: inset 0 0 0.5em 0 $error-bg;
+        box-shadow: inset 0 0 .5em 0 $error-bg;
     }
 
     &:hover button.close-button {
         @include button-hover;
-        background-color: transparentize($error-bg, 0.5);
+        background-color: transparentize($error-bg, .5);
     }
 
     .content {
@@ -16,16 +16,16 @@
         }
 
         .time {
-            color: transparentize($fg, 0.2);
+            color: transparentize($fg, .2);
         }
 
         .description {
-            font-size: 0.9em;
-            color: transparentize($fg, 0.2);
+            font-size: .9em;
+            color: transparentize($fg, .2);
         }
 
         .icon {
-            border-radius: $radius * 0.8;
+            border-radius: $radius*0.8;
             margin-right: $spacing;
 
             &.img {
@@ -40,7 +40,7 @@
 
         button {
             @include button;
-            border-radius: $radius * 0.8;
+            border-radius: $radius*0.8;
             font-size: 1.2em;
             padding: $padding * 0.7;
         }
@@ -48,66 +48,18 @@
 
     button.close-button {
         @include button($flat: true);
-        border-radius: $radius * 0.8;
+        margin-left: $spacing / 2;
+        border-radius: $radius*0.8;
         min-width: 1.2em;
         min-height: 1.2em;
 
         &:hover {
-            background-color: transparentize($error-bg, 0.2);
+            background-color: transparentize($error-bg, .2);
         }
 
         &:active {
             background-image: none;
             background-color: $error-bg;
-        }
-    }
-}
-
-.notification-center {
-    @include spacing;
-    @include floating-widget;
-
-    min-height: 300px;
-
-    .notifications {
-        .header {
-            padding: $spacing;
-            margin: $spacing 0;
-
-            > label {
-                margin-left: $radius * 0.5;
-            }
-
-            button {
-                @include button;
-                padding: $padding;
-                margin-left: $spacing;
-            }
-        }
-
-        .notification-scrollable {
-            @include scrollable($top: true, $bottom: true);
-        }
-
-        .notification-list {
-            margin-right: $spacing;
-        }
-
-        .notification {
-            @include notification;
-            @include widget;
-            padding: $padding;
-            margin-bottom: $spacing;
-        }
-
-        .placeholder {
-            image {
-                font-size: 7em;
-            }
-
-            label {
-                font-size: 1.2em;
-            }
         }
     }
 }
@@ -121,7 +73,7 @@ window.notifications {
         border-radius: $radius;
 
         .description {
-            min-width: 300px;
+            min-width: 350px;
         }
     }
 }

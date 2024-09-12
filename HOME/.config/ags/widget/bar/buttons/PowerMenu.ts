@@ -1,11 +1,15 @@
-import icons from 'lib/icons';
-import PanelButton from '../PanelButton';
-import options from 'options';
+import icons from "lib/icons"
+import PanelButton from "../PanelButton"
+import options from "options"
 
-const { action } = options.bar.powermenu;
+const { monochrome, action } = options.bar.powermenu
 
-export default () =>
-    PanelButton({
-        on_clicked: action.bind(),
-        child: Widget.Icon(icons.powermenu.shutdown)
-    });
+export default () => PanelButton({
+    window: "powermenu",
+    on_clicked: action.bind(),
+    child: Widget.Icon(icons.powermenu.shutdown),
+    setup: self => self.hook(monochrome, () => {
+        self.toggleClassName("colored", !monochrome.value)
+        self.toggleClassName("box")
+    }),
+})

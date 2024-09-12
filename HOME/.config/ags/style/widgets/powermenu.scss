@@ -1,11 +1,10 @@
 window#powermenu,
 window#verification {
     // the fraction has to be more than hyprland ignorealpha
-    background-color: rgba(0, 0, 0, 0.4);
+    background-color: rgba(0, 0, 0, .4);
 }
 
 window#verification .verification {
-    @include spacing;
     @include floating-widget;
     padding: $popover-padding * 1.5;
     min-width: 300px;
@@ -47,7 +46,7 @@ window#powermenu .powermenu {
         }
 
         label {
-            margin-bottom: $spacing * -0.5;
+            margin-bottom: $spacing * -.5;
         }
     }
 
@@ -68,7 +67,7 @@ window#powermenu .powermenu {
 
         image {
             @include button;
-            border-radius: $radius;
+            border-radius: $radius + ($popover-padding * 1.4);
             min-width: 1.7em;
             min-height: 1.7em;
             font-size: 4em;
@@ -80,7 +79,7 @@ window#powermenu .powermenu {
         }
 
         label {
-            margin-top: $spacing * 0.3;
+            margin-top: $spacing * .3;
         }
 
         &:hover {

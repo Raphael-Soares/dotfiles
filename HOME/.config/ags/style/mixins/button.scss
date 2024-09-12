@@ -65,3 +65,17 @@
         @include button-disabled;
     }
 }
+
+@mixin workspace-button($flat: true, $reactive: true) {
+    @include accs-button($flat, $reactive);
+    border-radius: $button-radius;
+
+    > * {
+        padding: $bar-spacing $bar-spacing + 6pt;
+        padding-bottom: 2px;
+    }
+    label,
+    image {
+        font-weight: bold;
+    }
+}
