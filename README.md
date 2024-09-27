@@ -9,7 +9,7 @@ Install dependencies:
 
 ```bash
 # Pacman dependencies
-sudo pacman -S --needed zsh eza stow git curl brightnessctl bluez blueman bluez-utils pipewire-pulse pamixer jq inter-font hyprshot hyprlock hypridle sassc dart-sass
+sudo pacman -S --needed zsh eza stow git curl brightnessctl bluez blueman bluez-utils pipewire-pulse pamixer jq inter-font hyprland hyprshot hyprlock hypridle sassc dart-sass tmux 
 
 # Yay dependencies
 yay -S --needed aylurs-gtk-shell ttf-jetbrains-mono-nerd
