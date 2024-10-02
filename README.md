@@ -1,8 +1,6 @@
 
 # Raphael's Dotfiles
 
-| NOTE: This installation is meant to be on a minimal Arch Linux installation.
-
 ## 1. Dependencies
 
 Install dependencies:
