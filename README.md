@@ -45,4 +45,6 @@ Clone the project and run the installation script. It will copy the dotfiles to 
 git clone https://github.com/Raphael-Soares/dotfiles.git ~/dotfiles
 cd ~/dotfiles/src/
 ./install.sh
+# or
+./install.sh --remove
 ```
