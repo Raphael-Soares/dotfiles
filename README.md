@@ -9,7 +9,7 @@ Install dependencies:
 
 ```bash
 # Pacman dependencies
-sudo pacman -S --needed zsh eza stow git curl
+sudo pacman -S --needed zsh eza stow git curl neovim tmux 
 
 # Yay dependencies
 yay -S --needed  ttf-jetbrains-mono-nerd
