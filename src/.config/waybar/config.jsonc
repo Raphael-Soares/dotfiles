@@ -1,0 +1,50 @@
+{
+  "layer": "bottom",
+  "position": "top",
+  "height": 24,
+  "spacing": 5,
+  "modules-left": ["hyprland/workspaces"],
+  "modules-center": [],
+  "modules-right": [
+    "tray",
+    "battery",
+    "pulseaudio",
+    "clock",
+    "custom/powermenu",
+  ],
+  "clock": {
+    "format": "{:%d %b %H:%M}",
+    "interval": 1,
+    "tooltip": false,
+  },
+  "battery": {
+    "format": "{icon} {capacity}%",
+    "format-icons": ["󰁺", "󰁻", "󰁼", "󰁽", "󰁾", "󰁿", "󰂀", "󰂁", "󰂂", "󰂄"],
+    "format-time": "{H}h{M}m",
+    "format-charging": "{icon} {capacity}%",
+    "format-charging-icons": ["󰢜", "󰂆", "󰂇", "󰂈", "󰢝", "󰢝", "󰢞", "󰂊", "󰂋", "󰂅"],
+    "format-full": "{icon}",
+    "interval": 10,
+    "tooltip": false,
+  },
+  "pulseaudio": {
+    "scroll-step": 5,
+    "format": "{icon} {volume}%",
+    "format-icons": {
+      "default": ["󰝟", "󰕿", "󰕿", "󰕿", "󰖀", "󰖀", "󰖀", "󰕾", "󰕾", "󰕾"],
+    },
+    "interval": 1,
+    "tooltip-format": "{desc}",
+    "tooltip": true,
+  },
+  "tray": {
+    "show-passive-items": true,
+    "spacing": 5,
+    "icon-size": 12,
+  },
+  "custom/powermenu": {
+    "format": "󰐥",
+    "on-click": "~/.config/rofi/powermenu.sh",
+    "tooltip": false,
+  },
+}
