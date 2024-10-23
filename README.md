@@ -1,4 +1,3 @@
-
 # Raphael's Dotfiles
 
 | NOTE: This installation is meant to be on a minimal Arch Linux installation.
@@ -9,10 +8,10 @@ Install dependencies:
 
 ```bash
 # Pacman dependencies
-sudo pacman -S --needed zsh eza stow git curl brightnessctl bluez blueman bluez-utils pipewire-pulse pamixer jq inter-font hyprland hyprshot hyprlock hypridle sassc dart-sass tmux 
+sudo pacman -S --needed zsh eza git curl brightnessctl bluez blueman bluez-utils pipewire-pulse pamixer inter-font hyprland  hyprlock hypridle tmux ttf-jetbrains-mono-nerd kitty waybar
 
 # Yay dependencies
-yay -S --needed aylurs-gtk-shell ttf-jetbrains-mono-nerd
+yay -S --needed hyprshot
 ```
 
 Then install oh-my-zsh:
