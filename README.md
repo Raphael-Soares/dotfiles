@@ -1,16 +1,13 @@
-
 # Raphael's Dotfiles
+
+
 
 ## 1. Dependencies
 
 Install dependencies:
 
 ```bash
-# Pacman dependencies
-sudo pacman -S --needed zsh eza stow git curl neovim tmux 
-
-# Yay dependencies
-yay -S --needed  ttf-jetbrains-mono-nerd
+sudo pacman -S --needed zsh eza stow git curl neovim tmux kitty ttf-jetbrains-mono-nerd
 ```
 
 Then install oh-my-zsh:
@@ -33,16 +30,4 @@ git clone https://github.com/zsh-users/zsh-autosuggestions.git $ZSH_CUSTOM/plugi
 git clone https://github.com/zsh-users/zsh-syntax-highlighting.git $ZSH_CUSTOM/plugins/zsh-syntax-highlighting
 git clone https://github.com/zdharma-continuum/fast-syntax-highlighting.git $ZSH_CUSTOM/plugins/fast-syntax-highlighting
 git clone --depth 1 https://github.com/marlonrichert/zsh-autocomplete.git $ZSH_CUSTOM/plugins/zsh-autocomplete
-```
-
-## 2. Installation
-
-Clone the project and run the installation script. It will copy the dotfiles to your system:
-
-```bash
-git clone https://github.com/Raphael-Soares/dotfiles.git ~/dotfiles
-cd ~/dotfiles/src/
-./install.sh
-# or
-./install.sh --remove
 ```
