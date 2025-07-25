@@ -3,8 +3,8 @@ window-height=244
 window-width=360
 
 [control-center]
-last-panel='background'
-window-state=(1920, 1044, false)
+last-panel='bluetooth'
+window-state=(1920, 1080, false)
 
 [desktop/app-folders]
 folder-children=['System', 'Utilities', 'YaST', 'Pardus', 'b50e8d5f-8234-46dd-a764-33ca80dc0139']
@@ -35,8 +35,8 @@ translate=false
 [desktop/background]
 color-shading-type='solid'
 picture-options='zoom'
-picture-uri='file:///home/raphael/.local/share/backgrounds/2025-07-22-00-39-21-1y4MRJcAwksOmWcCACzp1U9_H9G7N_KWX'
-picture-uri-dark='file:///home/raphael/.local/share/backgrounds/2025-07-22-00-39-21-1y4MRJcAwksOmWcCACzp1U9_H9G7N_KWX'
+picture-uri='file:///home/raphael/.local/share/backgrounds/2025-07-22-00-45-54-1711VT1PRps6ETJdAkhFLuHmvqYnmPv_Y'
+picture-uri-dark='file:///home/raphael/.local/share/backgrounds/2025-07-22-00-45-54-1711VT1PRps6ETJdAkhFLuHmvqYnmPv_Y'
 primary-color='#000000000000'
 secondary-color='#000000000000'
 
@@ -115,7 +115,7 @@ two-finger-scrolling-enabled=true
 [desktop/screensaver]
 color-shading-type='solid'
 picture-options='zoom'
-picture-uri='file:///home/raphael/.local/share/backgrounds/2025-07-22-00-39-21-1y4MRJcAwksOmWcCACzp1U9_H9G7N_KWX'
+picture-uri='file:///home/raphael/.local/share/backgrounds/2025-07-22-00-45-54-1711VT1PRps6ETJdAkhFLuHmvqYnmPv_Y'
 primary-color='#000000000000'
 secondary-color='#000000000000'
 
@@ -191,12 +191,12 @@ migrated-gtk-settings=true
 search-filter-time-type='last_modified'
 
 [nautilus/window-state]
-initial-size=(1920, 1040)
+initial-size=(948, 1030)
 initial-size-file-chooser=(890, 550)
 maximized=false
 
 [portal/filechooser/app.zen_browser.zen]
-last-folder-path='/home/raphael/Pictures/wallpapers'
+last-folder-path='/home/raphael/Downloads'
 
 [portal/filechooser/com.github.IsmaelMartinez.teams_for_linux]
 last-folder-path='/home/raphael/Downloads'
@@ -227,7 +227,7 @@ name='Terminal'
 [shell]
 app-picker-layout=[{'b50e8d5f-8234-46dd-a764-33ca80dc0139': <{'position': <0>}>, 'com.mattjakeman.ExtensionManager.desktop': <{'position': <1>}>, 'org.gnome.Settings.desktop': <{'position': <2>}>, 'org.gnome.Software.desktop': <{'position': <3>}>, 'org.gnome.tweaks.desktop': <{'position': <4>}>, 'org.gnome.Evince.desktop': <{'position': <5>}>, 'forticlient.desktop': <{'position': <6>}>, 'com.github.tchx84.Flatseal.desktop': <{'position': <7>}>, 'org.onlyoffice.desktopeditors.desktop': <{'position': <8>}>, 'net.nokyan.Resources.desktop': <{'position': <9>}>, 'timeshift-gtk.desktop': <{'position': <10>}>, 'org.gnome.Snapshot.desktop': <{'position': <11>}>, 'org.pulseaudio.pavucontrol.desktop': <{'position': <12>}>, 'kitty.desktop': <{'position': <13>}>}]
 disabled-extensions=['gtk4-ding@smedius.gitlab.com']
-enabled-extensions=['dash-to-panel@jderose9.github.com', 'user-theme@gnome-shell-extensions.gcampax.github.com', 'caffeine@patapon.info', 'appindicatorsupport@rgcjonas.gmail.com', 'arcmenu@arcmenu.com', 'space-bar@luchrioh', 'pop-shell@system76.com', 'bluetooth-quick-connect@bjarosze.gmail.com', 'rounded-window-corners@fxgn', 'ding@rastersoft.com', 'blur-my-shell@aunetx', 'just-perfection-desktop@just-perfection', 'workspace-switcher-manager@G-dH.github.com']
+enabled-extensions=['dash-to-panel@jderose9.github.com', 'user-theme@gnome-shell-extensions.gcampax.github.com', 'caffeine@patapon.info', 'appindicatorsupport@rgcjonas.gmail.com', 'arcmenu@arcmenu.com', 'space-bar@luchrioh', 'pop-shell@system76.com', 'bluetooth-quick-connect@bjarosze.gmail.com', 'rounded-window-corners@fxgn', 'ding@rastersoft.com', 'blur-my-shell@aunetx', 'just-perfection-desktop@just-perfection', 'workspace-switcher-manager@G-dH.github.com', 'gsconnect@andyholmes.github.io']
 favorite-apps=@as []
 last-selected-power-profile='performance'
 welcome-dialog-last-shown-version='48.3'
@@ -240,6 +240,7 @@ icon-saturation=0.0
 icon-size=0
 
 [shell/extensions/arcmenu]
+activate-on-launch=true
 arc-menu-icon=71
 arcmenu-hotkey=@as []
 button-padding=-1
@@ -257,7 +258,7 @@ menu-position-alignment=50
 multi-monitor=false
 position-in-panel='Center'
 prefs-visible-page=0
-recently-installed-apps=['com.github.tchx84.Flatseal.desktop', 'com.usebruno.Bruno.desktop', 'com.jetbrains.DataGrip.desktop', 'com.jetbrains.IntelliJ-IDEA-Ultimate.desktop', 'forticlient.desktop', 'openfortigui.desktop', 'blueman-manager.desktop', 'net.nokyan.Resources.desktop', 'com.visualstudio.code.desktop', 'jshell-java11-openjdk.desktop', 'jconsole-java11-openjdk.desktop', 'code-oss.desktop', 'electron35.desktop', 'timeshift-gtk.desktop', 'org.gnome.Snapshot.desktop', 'com.desktop.ding.desktop', 'Alacritty.desktop']
+recently-installed-apps=['com.github.tchx84.Flatseal.desktop', 'com.usebruno.Bruno.desktop', 'com.jetbrains.DataGrip.desktop', 'com.jetbrains.IntelliJ-IDEA-Ultimate.desktop', 'forticlient.desktop', 'openfortigui.desktop', 'blueman-manager.desktop', 'net.nokyan.Resources.desktop', 'com.visualstudio.code.desktop', 'jshell-java11-openjdk.desktop', 'jconsole-java11-openjdk.desktop', 'code-oss.desktop', 'electron35.desktop', 'com.desktop.ding.desktop', 'Alacritty.desktop']
 runner-hotkey=['<Super>d']
 runner-menu-height=300
 runner-menu-width=720
@@ -329,12 +330,12 @@ brightness=0.59999999999999998
 sigma=30
 
 [shell/extensions/caffeine]
-indicator-position-max=2
+indicator-position-max=3
 restore-state=true
 user-enabled=true
 
 [shell/extensions/dash-to-panel]
-animate-appicon-hover=false
+animate-appicon-hover=true
 animate-appicon-hover-animation-convexity={'RIPPLE': 2.0, 'PLANK': 1.0, 'SIMPLE': 0.0}
 animate-appicon-hover-animation-duration={'SIMPLE': uint32 200, 'RIPPLE': 130, 'PLANK': 100}
 animate-appicon-hover-animation-extent={'RIPPLE': 4, 'PLANK': 4, 'SIMPLE': 1}
@@ -343,10 +344,28 @@ animate-appicon-hover-animation-travel={'SIMPLE': 0.050000000000000003, 'RIPPLE'
 animate-appicon-hover-animation-type='SIMPLE'
 animate-appicon-hover-animation-zoom={'SIMPLE': 1.1000000000000001, 'RIPPLE': 1.25, 'PLANK': 2.0}
 appicon-margin=0
-appicon-padding=7
+appicon-padding=6
 appicon-style='NORMAL'
-dot-position='BOTTOM'
+dot-color-1='#5294e2'
+dot-color-2='#5294e2'
+dot-color-3='#5294e2'
+dot-color-4='#5294e2'
+dot-color-dominant=false
+dot-color-override=false
+dot-color-unfocused-1='#5294e2'
+dot-color-unfocused-2='#5294e2'
+dot-color-unfocused-3='#5294e2'
+dot-color-unfocused-4='#5294e2'
+dot-color-unfocused-different=false
+dot-position='TOP'
+dot-size=2
+dot-style-focused='SQUARES'
+dot-style-unfocused='SQUARES'
 extension-version=68
+focus-highlight=false
+focus-highlight-color='#EEEEEE'
+focus-highlight-dominant=false
+focus-highlight-opacity=25
 global-border-radius=0
 highlight-appicon-hover=false
 highlight-appicon-hover-background-color='rgba(238, 238, 236, 0.1)'
@@ -364,7 +383,7 @@ panel-lengths='{"DEL-10TT833":100,"AUO-0x00000000":100}'
 panel-positions='{"DEL-10TT833":"TOP","AUO-0x00000000":"TOP"}'
 panel-side-margins=0
 panel-side-padding=0
-panel-sizes='{"DEL-10TT833":36,"AUO-0x00000000":36}'
+panel-sizes='{"DEL-10TT833":34,"AUO-0x00000000":34}'
 panel-top-bottom-margins=0
 panel-top-bottom-padding=0
 prefs-opened=false
@@ -374,15 +393,50 @@ taskbar-locked=true
 trans-bg-color='#613583'
 trans-gradient-bottom-opacity=0.25
 trans-gradient-top-opacity=0.0
-trans-panel-opacity=0.5
+trans-panel-opacity=0.20000000000000001
 trans-use-custom-bg=false
 trans-use-custom-gradient=false
 trans-use-custom-opacity=true
-trans-use-dynamic-opacity=false
+trans-use-dynamic-opacity=true
 window-preview-title-position='TOP'
 
 [shell/extensions/ding]
 check-x11wayland=true
+
+[shell/extensions/gsconnect]
+devices=['80d38ccc70e24f57a620c2b71dff98ec']
+enabled=true
+keep-alive-when-locked=true
+name='Arch LInux'
+show-indicators=true
+
+[shell/extensions/gsconnect/device/80d38ccc70e24f57a620c2b71dff98ec]
+certificate-pem='-----BEGIN CERTIFICATE-----\nMIIBizCCATGgAwIBAgIBATAKBggqhkjOPQQDBDBPMSkwJwYDVQQDDCA4MGQzOGNj\nYzcwZTI0ZjU3YTYyMGMyYjcxZGZmOThlYzEUMBIGA1UECwwLS0RFIENvbm5lY3Qx\nDDAKBgNVBAoMA0tERTAeFw0yNDA3MjMwMzAwMDBaFw0zNTA3MjMwMzAwMDBaME8x\nKTAnBgNVBAMMIDgwZDM4Y2NjNzBlMjRmNTdhNjIwYzJiNzFkZmY5OGVjMRQwEgYD\nVQQLDAtLREUgQ29ubmVjdDEMMAoGA1UECgwDS0RFMFkwEwYHKoZIzj0CAQYIKoZI\nzj0DAQcDQgAEKWOzXuomJ6CrPII5feSgK30esrYSmIRSmY2BU3x+HeXEGkkdcJV8\ni7WAWztl3plx2XSyd7AtdLlDgk8EEjsQqDAKBggqhkjOPQQDBANIADBFAiBtKQr4\nGDaworZeJf2QYFl5MsG1L8kQYvp9STn5FGPNiAIhAMV7TpVlr9DRIK7PBVqWB6E8\nhGc7nhR7bYyEjyjMcWTl\n-----END CERTIFICATE-----\n'
+incoming-capabilities=['kdeconnect.battery', 'kdeconnect.bigscreen.stt', 'kdeconnect.clipboard', 'kdeconnect.clipboard.connect', 'kdeconnect.contacts.request_all_uids_timestamps', 'kdeconnect.contacts.request_vcards_by_uid', 'kdeconnect.findmyphone.request', 'kdeconnect.mousepad.keyboardstate', 'kdeconnect.mousepad.request', 'kdeconnect.mpris', 'kdeconnect.mpris.request', 'kdeconnect.notification', 'kdeconnect.notification.action', 'kdeconnect.notification.reply', 'kdeconnect.notification.request', 'kdeconnect.ping', 'kdeconnect.runcommand', 'kdeconnect.sftp.request', 'kdeconnect.share.request', 'kdeconnect.share.request.update', 'kdeconnect.sms.request', 'kdeconnect.sms.request_attachment', 'kdeconnect.sms.request_conversation', 'kdeconnect.sms.request_conversations', 'kdeconnect.systemvolume', 'kdeconnect.telephony.request', 'kdeconnect.telephony.request_mute']
+last-connection='lan://192.168.15.38:1716'
+name='Galaxy S23'
+outgoing-capabilities=['kdeconnect.battery', 'kdeconnect.bigscreen.stt', 'kdeconnect.clipboard', 'kdeconnect.clipboard.connect', 'kdeconnect.connectivity_report', 'kdeconnect.contacts.response_uids_timestamps', 'kdeconnect.contacts.response_vcards', 'kdeconnect.findmyphone.request', 'kdeconnect.mousepad.echo', 'kdeconnect.mousepad.keyboardstate', 'kdeconnect.mousepad.request', 'kdeconnect.mpris', 'kdeconnect.mpris.request', 'kdeconnect.notification', 'kdeconnect.notification.request', 'kdeconnect.ping', 'kdeconnect.presenter', 'kdeconnect.runcommand.request', 'kdeconnect.sftp', 'kdeconnect.share.request', 'kdeconnect.sms.attachment_file', 'kdeconnect.sms.messages', 'kdeconnect.systemvolume.request', 'kdeconnect.telephony']
+paired=true
+supported-plugins=['battery', 'clipboard', 'connectivity_report', 'contacts', 'findmyphone', 'mousepad', 'mpris', 'notification', 'ping', 'presenter', 'runcommand', 'sftp', 'share', 'sms', 'systemvolume', 'telephony']
+type='phone'
+
+[shell/extensions/gsconnect/device/80d38ccc70e24f57a620c2b71dff98ec/plugin/battery]
+custom-battery-notification-value=uint32 80
+send-statistics=true
+
+[shell/extensions/gsconnect/device/80d38ccc70e24f57a620c2b71dff98ec/plugin/notification]
+applications='{"Spotify":{"iconName":"com.spotify.Client","enabled":true},"Ghostty":{"iconName":"com.mitchellh.ghostty","enabled":true},"Power":{"iconName":"org.gnome.Settings-power-symbolic","enabled":true},"Software":{"iconName":"org.gnome.Software","enabled":true},"Color Management":{"iconName":"org.gnome.Settings-color-symbolic","enabled":true},"Timeshift":{"iconName":"timeshift","enabled":true},"Printers":{"iconName":"org.gnome.Settings-printers-symbolic","enabled":true},"Files":{"iconName":"org.gnome.Nautilus","enabled":true},"Date & Time":{"iconName":"org.gnome.Settings-time-symbolic","enabled":true}}'
+
+[shell/extensions/gsconnect/device/80d38ccc70e24f57a620c2b71dff98ec/plugin/share]
+receive-directory='/home/raphael/Downloads'
+
+[shell/extensions/gsconnect/messaging]
+window-maximized=false
+window-size=(948, 986)
+
+[shell/extensions/gsconnect/preferences]
+window-maximized=false
+window-size=(948, 986)
 
 [shell/extensions/just-perfection]
 accessibility-menu=false
@@ -482,9 +536,9 @@ popup-opacity=100
 popup-visibility=1
 
 [software]
-check-timestamp=int64 1753189512
+check-timestamp=int64 1753452035
 first-run=false
-flatpak-purge-timestamp=int64 1753146062
+flatpak-purge-timestamp=int64 1753459175
 
 [tweaks]
 show-extensions-notice=false
