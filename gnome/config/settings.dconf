@@ -2,12 +2,27 @@
 window-height=244
 window-width=360
 
+[bijiben]
+window-maximized=false
+window-position=(85, 70)
+window-size=(948, 990)
+
+[calendar]
+active-view='month'
+week-view-zoom-level=1.0
+window-maximized=false
+window-size=(1358, 730)
+
 [control-center]
-last-panel='bluetooth'
-window-state=(1920, 1080, false)
+last-panel='background'
+window-state=(1920, 1050, false)
 
 [desktop/app-folders]
-folder-children=['System', 'Utilities', 'YaST', 'Pardus', 'b50e8d5f-8234-46dd-a764-33ca80dc0139']
+folder-children=['System', 'Utilities', 'YaST', 'Pardus', 'b50e8d5f-8234-46dd-a764-33ca80dc0139', '7764846c-4410-421e-b3d7-8521b09c8ec0']
+
+[desktop/app-folders/folders/7764846c-4410-421e-b3d7-8521b09c8ec0]
+apps=['ToneLib-GFX.desktop', 'carla.desktop', 'calf.desktop', 'org.pulseaudio.pavucontrol.desktop', 'carla-control.desktop', 'org.guitarix.Guitarix.desktop']
+name='Sound & Video'
 
 [desktop/app-folders/folders/Pardus]
 categories=['X-Pardus-Apps']
@@ -32,11 +47,15 @@ apps=['bvnc.desktop', 'avahi-discover.desktop', 'bssh.desktop', 'qv4l2.desktop',
 name='Hidden'
 translate=false
 
+[desktop/app-folders/folders/db5ad491-d1e7-4fe4-80f3-7ec4302f19dd]
+apps=['qv4l2.desktop', 'avahi-discover.desktop', 'bvnc.desktop', 'bssh.desktop', 'qvidcap.desktop', 'org.gnome.Extensions.desktop']
+name='Unnamed Folder'
+
 [desktop/background]
 color-shading-type='solid'
 picture-options='zoom'
-picture-uri='file:///home/raphael/.local/share/backgrounds/2025-07-22-00-45-54-1711VT1PRps6ETJdAkhFLuHmvqYnmPv_Y'
-picture-uri-dark='file:///home/raphael/.local/share/backgrounds/2025-07-22-00-45-54-1711VT1PRps6ETJdAkhFLuHmvqYnmPv_Y'
+picture-uri='file:///home/raphael/.local/share/backgrounds/2025-07-31-15-59-20-luca-bravo-ii5JY_46xH0-unsplash.jpg'
+picture-uri-dark='file:///home/raphael/.local/share/backgrounds/2025-07-31-15-59-20-luca-bravo-ii5JY_46xH0-unsplash.jpg'
 primary-color='#000000000000'
 secondary-color='#000000000000'
 
@@ -48,27 +67,48 @@ duration-seconds=uint32 300
 interval-seconds=uint32 1800
 play-sound=true
 
+[desktop/calendar]
+show-weekdate=false
+
+[desktop/datetime]
+automatic-timezone=true
+
 [desktop/input-sources]
 mru-sources=[('xkb', 'us')]
 sources=[('xkb', 'us'), ('xkb', 'br')]
-xkb-options=['lv3:ralt_switch']
+xkb-options=['lv3:ralt_switch', 'caps:escape']
 
 [desktop/interface]
 accent-color='slate'
+clock-format='24h'
+clock-show-date=true
+clock-show-seconds=false
+clock-show-weekday=true
 color-scheme='prefer-dark'
 cursor-theme='Adwaita'
 enable-animations=true
+enable-hot-corners=false
 font-antialiasing='grayscale'
 font-hinting='slight'
-gtk-theme='Fluent-Dark'
-icon-theme='WhiteSur'
+gtk-theme='Fluent-Dark-compact'
+icon-theme='WhiteSur-dark'
 show-battery-percentage=true
 
+[desktop/media-handling]
+autorun-never=true
+
 [desktop/notifications]
-application-children=['org-gnome-software', 'gnome-power-panel', 'app-zen-browser-zen', 'kitty', 'com-jetbrains-intellij-idea-ultimate', 'openfortigui', 'net-nokyan-resources', 'com-jetbrains-datagrip', 'com-spotify-client', 'org-gnome-nautilus', 'com-mitchellh-ghostty', 'org-gnome-shell-extensions', 'com-github-ismaelmartinez-teams-for-linux']
+application-children=['org-gnome-software', 'gnome-power-panel', 'app-zen-browser-zen', 'kitty', 'com-jetbrains-intellij-idea-ultimate', 'openfortigui', 'net-nokyan-resources', 'com-jetbrains-datagrip', 'com-spotify-client', 'org-gnome-nautilus', 'com-mitchellh-ghostty', 'org-gnome-shell-extensions', 'com-github-ismaelmartinez-teams-for-linux', 'org-qbittorrent-qbittorrent', 'org-rncbc-qjackctl', 'blueman-manager', 'com-discordapp-discord', 'com-rtosta-zapzap']
+show-banners=true
 
 [desktop/notifications/application/app-zen-browser-zen]
 application-id='app.zen_browser.zen.desktop'
+
+[desktop/notifications/application/blueman-manager]
+application-id='blueman-manager.desktop'
+
+[desktop/notifications/application/com-discordapp-discord]
+application-id='com.discordapp.Discord.desktop'
 
 [desktop/notifications/application/com-github-ismaelmartinez-teams-for-linux]
 application-id='com.github.IsmaelMartinez.teams_for_linux.desktop'
@@ -81,6 +121,9 @@ application-id='com.jetbrains.IntelliJ-IDEA-Ultimate.desktop'
 
 [desktop/notifications/application/com-mitchellh-ghostty]
 application-id='com.mitchellh.ghostty.desktop'
+
+[desktop/notifications/application/com-rtosta-zapzap]
+application-id='com.rtosta.zapzap.desktop'
 
 [desktop/notifications/application/com-spotify-client]
 application-id='com.spotify.Client.desktop'
@@ -106,6 +149,12 @@ application-id='org.gnome.Shell.Extensions.desktop'
 [desktop/notifications/application/org-gnome-software]
 application-id='org.gnome.Software.desktop'
 
+[desktop/notifications/application/org-qbittorrent-qbittorrent]
+application-id='org.qbittorrent.qBittorrent.desktop'
+
+[desktop/notifications/application/org-rncbc-qjackctl]
+application-id='org.rncbc.qjackctl.desktop'
+
 [desktop/peripherals/pointingstick]
 accel-profile='flat'
 
@@ -115,15 +164,18 @@ two-finger-scrolling-enabled=true
 [desktop/screensaver]
 color-shading-type='solid'
 picture-options='zoom'
-picture-uri='file:///home/raphael/.local/share/backgrounds/2025-07-22-00-45-54-1711VT1PRps6ETJdAkhFLuHmvqYnmPv_Y'
+picture-uri='file:///home/raphael/.local/share/backgrounds/2025-07-31-15-59-20-luca-bravo-ii5JY_46xH0-unsplash.jpg'
 primary-color='#000000000000'
 secondary-color='#000000000000'
 
 [desktop/search-providers]
+disable-external=false
+disabled=['org.gnome.Software.desktop', 'org.gnome.Calendar.desktop', 'org.gnome.Nautilus.desktop']
 sort-order=['org.gnome.Settings.desktop', 'org.gnome.Contacts.desktop', 'org.gnome.Nautilus.desktop']
 
 [desktop/wm/keybindings]
 close=['<Super>q']
+maximize=@as []
 move-to-workspace-1=['<Super><Shift>1']
 move-to-workspace-10=['<Super><Shift>0']
 move-to-workspace-2=['<Super><Shift>2']
@@ -142,8 +194,8 @@ switch-to-workspace-down=@as []
 switch-to-workspace-left=['<Super>Page_Up']
 switch-to-workspace-right=['<Super>Page_Down']
 switch-to-workspace-up=@as []
-toggle-fullscreen=['<Super>m']
-toggle-maximized=@as []
+toggle-fullscreen=@as []
+toggle-maximized=['<Super>m']
 
 [desktop/wm/preferences]
 action-double-click-titlebar='toggle-maximize'
@@ -159,19 +211,23 @@ workspace-names=@as []
 [evince/default]
 continuous=true
 dual-page=false
-dual-page-odd-left=false
+dual-page-odd-left=true
 enable-spellchecking=true
 fullscreen=false
 inverted-colors=false
-show-sidebar=true
+show-sidebar=false
 sidebar-page='thumbnails'
 sidebar-size=132
-sizing-mode='automatic'
-window-ratio=(1.1703703703703703, 0.711111143209878)
+sizing-mode='free'
+window-ratio=(1.6033613445378152, 1.2375296912114013)
+zoom=2.0775911035072703
+
+[evolution-data-server]
+migrated=true
 
 [mutter]
 attach-modal-dialogs=true
-dynamic-workspaces=true
+dynamic-workspaces=false
 edge-tiling=false
 overlay-key='Super'
 workspaces-only-on-primary=true
@@ -191,7 +247,7 @@ migrated-gtk-settings=true
 search-filter-time-type='last_modified'
 
 [nautilus/window-state]
-initial-size=(948, 1030)
+initial-size=(954, 1042)
 initial-size-file-chooser=(890, 550)
 maximized=false
 
@@ -201,11 +257,22 @@ last-folder-path='/home/raphael/Downloads'
 [portal/filechooser/com.github.IsmaelMartinez.teams_for_linux]
 last-folder-path='/home/raphael/Downloads'
 
+[portal/filechooser/com.google.Chrome]
+last-folder-path='/home/raphael/Downloads'
+
 [portal/filechooser/io.github.realmazharhussain.GdmSettings]
 last-folder-path='/home/raphael/Pictures/wallpapers'
 
 [portal/filechooser/org.gnome.Settings]
-last-folder-path='/home/raphael/Pictures'
+last-folder-path='/home/raphael/Pictures/wallpapers'
+
+[portal/filechooser/org.qbittorrent.qBittorrent]
+last-folder-path='/home/raphael'
+
+[power-manager]
+info-history-type='charge'
+info-last-device='/org/freedesktop/UPower/devices/line_power_AC'
+info-stats-type='discharge-accuracy'
 
 [settings-daemon/plugins/color]
 night-light-enabled=true
@@ -221,13 +288,13 @@ www=@as []
 
 [settings-daemon/plugins/media-keys/custom-keybindings/custom0]
 binding='<Super>Return'
-command='ghostty'
+command='kitty'
 name='Terminal'
 
 [shell]
-app-picker-layout=[{'b50e8d5f-8234-46dd-a764-33ca80dc0139': <{'position': <0>}>, 'com.mattjakeman.ExtensionManager.desktop': <{'position': <1>}>, 'org.gnome.Settings.desktop': <{'position': <2>}>, 'org.gnome.Software.desktop': <{'position': <3>}>, 'org.gnome.tweaks.desktop': <{'position': <4>}>, 'org.gnome.Evince.desktop': <{'position': <5>}>, 'forticlient.desktop': <{'position': <6>}>, 'com.github.tchx84.Flatseal.desktop': <{'position': <7>}>, 'org.onlyoffice.desktopeditors.desktop': <{'position': <8>}>, 'net.nokyan.Resources.desktop': <{'position': <9>}>, 'timeshift-gtk.desktop': <{'position': <10>}>, 'org.gnome.Snapshot.desktop': <{'position': <11>}>, 'org.pulseaudio.pavucontrol.desktop': <{'position': <12>}>, 'kitty.desktop': <{'position': <13>}>}]
+app-picker-layout=[{'b50e8d5f-8234-46dd-a764-33ca80dc0139': <{'position': <0>}>, 'com.mattjakeman.ExtensionManager.desktop': <{'position': <1>}>, 'org.gnome.Settings.desktop': <{'position': <2>}>, 'org.gnome.Software.desktop': <{'position': <3>}>, 'org.gnome.tweaks.desktop': <{'position': <4>}>, 'org.gnome.PowerStats.desktop': <{'position': <5>}>, 'org.gnome.Nautilus.desktop': <{'position': <6>}>, 'com.mitchellh.ghostty.desktop': <{'position': <7>}>, 'app.zen_browser.zen.desktop': <{'position': <8>}>, 'org.qbittorrent.qBittorrent.desktop': <{'position': <9>}>, 'com.spotify.Client.desktop': <{'position': <10>}>, 'com.stremio.Stremio.desktop': <{'position': <11>}>, 'org.videolan.VLC.desktop': <{'position': <12>}>, 'com.discordapp.Discord.desktop': <{'position': <13>}>, 'org.gnome.TextEditor.desktop': <{'position': <14>}>, 'org.telegram.desktop.desktop': <{'position': <15>}>, 'org.gnome.Calendar.desktop': <{'position': <16>}>, 'org.gnome.Evince.desktop': <{'position': <17>}>, 'com.github.tchx84.Flatseal.desktop': <{'position': <18>}>, 'com.obsproject.Studio.desktop': <{'position': <19>}>, 'com.rtosta.zapzap.desktop': <{'position': <20>}>, '7764846c-4410-421e-b3d7-8521b09c8ec0': <{'position': <21>}>, 'steam.desktop': <{'position': <22>}>}]
 disabled-extensions=['gtk4-ding@smedius.gitlab.com']
-enabled-extensions=['dash-to-panel@jderose9.github.com', 'user-theme@gnome-shell-extensions.gcampax.github.com', 'caffeine@patapon.info', 'appindicatorsupport@rgcjonas.gmail.com', 'arcmenu@arcmenu.com', 'space-bar@luchrioh', 'pop-shell@system76.com', 'bluetooth-quick-connect@bjarosze.gmail.com', 'rounded-window-corners@fxgn', 'ding@rastersoft.com', 'blur-my-shell@aunetx', 'just-perfection-desktop@just-perfection', 'workspace-switcher-manager@G-dH.github.com', 'gsconnect@andyholmes.github.io']
+enabled-extensions=['user-theme@gnome-shell-extensions.gcampax.github.com', 'caffeine@patapon.info', 'arcmenu@arcmenu.com', 'pop-shell@system76.com', 'bluetooth-quick-connect@bjarosze.gmail.com', 'rounded-window-corners@fxgn', 'ding@rastersoft.com', 'just-perfection-desktop@just-perfection', 'workspace-switcher-manager@G-dH.github.com', 'gsconnect@andyholmes.github.io', 'blur-my-shell@aunetx', 'space-bar@luchrioh', 'trayIconsReloaded@selfmade.pl', 'dash-to-panel@jderose9.github.com', 'appindicatorsupport@rgcjonas.gmail.com', 'panel-corners@aunetx']
 favorite-apps=@as []
 last-selected-power-profile='performance'
 welcome-dialog-last-shown-version='48.3'
@@ -238,28 +305,25 @@ icon-contrast=0.0
 icon-opacity=240
 icon-saturation=0.0
 icon-size=0
+tray-pos='right'
 
 [shell/extensions/arcmenu]
-activate-on-launch=true
-arc-menu-icon=71
 arcmenu-hotkey=@as []
-button-padding=-1
-custom-menu-button-icon-size=26.0
+button-padding=0
+custom-menu-button-icon-size=20.0
+custom-menu-button-text='Apps'
 dash-to-panel-standalone=false
-distro-icon=6
 gnome-dash-show-applications=true
 menu-button-appearance='None'
-menu-button-border-radius=(false, 20)
-menu-button-border-width=(false, 0)
-menu-button-icon='Menu_Icon'
 menu-button-position-offset=0
 menu-layout='GnomeOverview'
-menu-position-alignment=50
+menu-position-alignment=0
 multi-monitor=false
-position-in-panel='Center'
+position-in-panel='Left'
 prefs-visible-page=0
-recently-installed-apps=['com.github.tchx84.Flatseal.desktop', 'com.usebruno.Bruno.desktop', 'com.jetbrains.DataGrip.desktop', 'com.jetbrains.IntelliJ-IDEA-Ultimate.desktop', 'forticlient.desktop', 'openfortigui.desktop', 'blueman-manager.desktop', 'net.nokyan.Resources.desktop', 'com.visualstudio.code.desktop', 'jshell-java11-openjdk.desktop', 'jconsole-java11-openjdk.desktop', 'code-oss.desktop', 'electron35.desktop', 'com.desktop.ding.desktop', 'Alacritty.desktop']
+recently-installed-apps=['com.usebruno.Bruno.desktop', 'com.jetbrains.DataGrip.desktop', 'com.jetbrains.IntelliJ-IDEA-Ultimate.desktop', 'forticlient.desktop', 'openfortigui.desktop', 'blueman-manager.desktop', 'net.nokyan.Resources.desktop', 'com.visualstudio.code.desktop', 'jshell-java11-openjdk.desktop', 'jconsole-java11-openjdk.desktop', 'code-oss.desktop', 'electron35.desktop', 'timeshift-gtk.desktop', 'org.gnome.Snapshot.desktop', 'com.desktop.ding.desktop', 'Alacritty.desktop', 'org.videolan.VLC.desktop', 'cutefish-calculator.desktop', 'cutefish-filemanager.desktop', 'cutefish-terminal.desktop', 'cutefish-settings.desktop', 'org.rncbc.qjackctl.desktop', 'cadence.desktop', 'catarina.desktop', 'catia.desktop', 'fluid.desktop', 'rakarrack.desktop', 'carla.desktop', 'org.pulseaudio.pavucontrol.desktop', 'studio.kx.carla.desktop', 'ToneLib-GFX.desktop', 'calf.desktop', 'org.gnome.Notes.desktop', 'org.gnome.TextEditor.desktop', 'vim.desktop', 'com.ktechpit.whatsie.desktop', 'org.gnome.Evince.desktop', 'com.valvesoftware.Steam.desktop', 'nvim.desktop', 'com.google.Chrome.desktop', 'steam.desktop', 'com.bitwarden.desktop.desktop', 'nl.hjdskes.gcolor3.desktop']
 runner-hotkey=['<Super>d']
+runner-hotkey-open-primary-monitor=true
 runner-menu-height=300
 runner-menu-width=720
 runner-position='Centered'
@@ -270,39 +334,22 @@ show-activities-button=false
 update-notifier-project-version=66
 
 [shell/extensions/blur-my-shell]
-pipelines={'pipeline_default': {'name': <'Default'>, 'effects': <[<{'type': <'native_static_gaussian_blur'>, 'id': <'effect_000000000000'>, 'params': <{'radius': <30>, 'brightness': <0.59999999999999998>}>}>]>}, 'pipeline_default_rounded': {'name': <'Default rounded'>, 'effects': <[<{'type': <'native_static_gaussian_blur'>, 'id': <'effect_000000000001'>, 'params': <{'radius': <30>, 'brightness': <0.59999999999999998>}>}>, <{'type': <'corner'>, 'id': <'effect_000000000002'>, 'params': <{'radius': <30>}>}>]>}}
 settings-version=2
 
-[shell/extensions/blur-my-shell/appfolder]
-brightness=0.59999999999999998
-sigma=30
-
 [shell/extensions/blur-my-shell/applications]
-blacklist=@as []
 blur=false
-brightness=0.44
-dynamic-opacity=true
-enable-all=true
-opacity=72
-sigma=100
-whitelist=['com.mitchellh.ghostty']
+brightness=1.0
+dynamic-opacity=false
+enable-all=false
+opacity=197
+sigma=30
+whitelist=@as []
 
 [shell/extensions/blur-my-shell/coverflow-alt-tab]
 pipeline='pipeline_default'
 
 [shell/extensions/blur-my-shell/dash-to-dock]
-blur=true
-brightness=0.59999999999999998
 pipeline='pipeline_default_rounded'
-sigma=30
-static-blur=true
-style-dash-to-dock=0
-
-[shell/extensions/blur-my-shell/dash-to-panel]
-blur-original-panel=true
-
-[shell/extensions/blur-my-shell/hidetopbar]
-compatibility=false
 
 [shell/extensions/blur-my-shell/lockscreen]
 pipeline='pipeline_default'
@@ -311,31 +358,19 @@ pipeline='pipeline_default'
 pipeline='pipeline_default'
 
 [shell/extensions/blur-my-shell/panel]
-blur=true
-brightness=1.0
-force-light-text=false
-override-background=false
-override-background-dynamically=true
 pipeline='pipeline_default'
-sigma=40
-static-blur=false
-style-panel=2
-unblur-in-overview=true
+static-blur=true
 
 [shell/extensions/blur-my-shell/screenshot]
 pipeline='pipeline_default'
 
-[shell/extensions/blur-my-shell/window-list]
-brightness=0.59999999999999998
-sigma=30
-
 [shell/extensions/caffeine]
-indicator-position-max=3
+indicator-position-max=4
 restore-state=true
 user-enabled=true
 
 [shell/extensions/dash-to-panel]
-animate-appicon-hover=true
+animate-appicon-hover=false
 animate-appicon-hover-animation-convexity={'RIPPLE': 2.0, 'PLANK': 1.0, 'SIMPLE': 0.0}
 animate-appicon-hover-animation-duration={'SIMPLE': uint32 200, 'RIPPLE': 130, 'PLANK': 100}
 animate-appicon-hover-animation-extent={'RIPPLE': 4, 'PLANK': 4, 'SIMPLE': 1}
@@ -346,28 +381,23 @@ animate-appicon-hover-animation-zoom={'SIMPLE': 1.1000000000000001, 'RIPPLE': 1.
 appicon-margin=0
 appicon-padding=6
 appicon-style='NORMAL'
-dot-color-1='#5294e2'
-dot-color-2='#5294e2'
-dot-color-3='#5294e2'
-dot-color-4='#5294e2'
-dot-color-dominant=false
-dot-color-override=false
-dot-color-unfocused-1='#5294e2'
-dot-color-unfocused-2='#5294e2'
-dot-color-unfocused-3='#5294e2'
-dot-color-unfocused-4='#5294e2'
-dot-color-unfocused-different=false
-dot-position='TOP'
-dot-size=2
+context-menu-entries='[]'
+dot-position='RIGHT'
 dot-style-focused='SQUARES'
 dot-style-unfocused='SQUARES'
 extension-version=68
 focus-highlight=false
-focus-highlight-color='#EEEEEE'
-focus-highlight-dominant=false
-focus-highlight-opacity=25
 global-border-radius=0
-highlight-appicon-hover=false
+group-apps=true
+group-apps-label-font-color='#dddddd'
+group-apps-label-font-color-minimized='#dddddd'
+group-apps-label-font-size=14
+group-apps-label-font-weight='inherit'
+group-apps-label-max-width=160
+group-apps-underline-unfocused=true
+group-apps-use-fixed-width=true
+group-apps-use-launchers=false
+highlight-appicon-hover=true
 highlight-appicon-hover-background-color='rgba(238, 238, 236, 0.1)'
 highlight-appicon-hover-border-radius=0
 highlight-appicon-pressed-background-color='rgba(238, 238, 236, 0.18)'
@@ -375,81 +405,64 @@ hotkeys-overlay-combo='TEMPORARILY'
 intellihide=false
 intellihide-behaviour='ALL_WINDOWS'
 intellihide-hide-from-windows=true
+isolate-workspaces=true
 multi-monitors=false
-panel-anchors='{"DEL-10TT833":"MIDDLE","AUO-0x00000000":"MIDDLE","-1":"MIDDLE"}'
-panel-element-positions='{"DEL-10TT833":[{"element":"showAppsButton","visible":false,"position":"centerMonitor"},{"element":"activitiesButton","visible":false,"position":"stackedTL"},{"element":"leftBox","visible":true,"position":"stackedTL"},{"element":"centerBox","visible":true,"position":"stackedTL"},{"element":"taskbar","visible":true,"position":"stackedTL"},{"element":"rightBox","visible":true,"position":"stackedBR"},{"element":"systemMenu","visible":true,"position":"stackedBR"},{"element":"dateMenu","visible":true,"position":"stackedBR"},{"element":"desktopButton","visible":false,"position":"stackedBR"}],"AUO-0x00000000":[{"element":"showAppsButton","visible":false,"position":"centerMonitor"},{"element":"activitiesButton","visible":false,"position":"stackedTL"},{"element":"leftBox","visible":true,"position":"stackedTL"},{"element":"centerBox","visible":true,"position":"stackedTL"},{"element":"taskbar","visible":true,"position":"stackedTL"},{"element":"rightBox","visible":true,"position":"stackedBR"},{"element":"systemMenu","visible":true,"position":"stackedBR"},{"element":"dateMenu","visible":true,"position":"stackedBR"},{"element":"desktopButton","visible":false,"position":"stackedBR"}]}'
+panel-anchors='{"DEL-10TT833":"MIDDLE","AUO-0x00000000":"MIDDLE","-1":"MIDDLE","BOE-0x00000000":"MIDDLE"}'
+panel-element-positions='{"DEL-10TT833":[{"element":"activitiesButton","visible":false,"position":"stackedBR"},{"element":"showAppsButton","visible":false,"position":"centerMonitor"},{"element":"leftBox","visible":true,"position":"stackedTL"},{"element":"centerBox","visible":true,"position":"stackedTL"},{"element":"taskbar","visible":true,"position":"stackedTL"},{"element":"rightBox","visible":true,"position":"stackedBR"},{"element":"systemMenu","visible":true,"position":"stackedBR"},{"element":"dateMenu","visible":true,"position":"stackedBR"},{"element":"desktopButton","visible":false,"position":"stackedBR"}],"AUO-0x00000000":[{"element":"showAppsButton","visible":false,"position":"centerMonitor"},{"element":"activitiesButton","visible":false,"position":"stackedTL"},{"element":"leftBox","visible":true,"position":"stackedTL"},{"element":"centerBox","visible":true,"position":"stackedTL"},{"element":"taskbar","visible":true,"position":"stackedTL"},{"element":"rightBox","visible":true,"position":"stackedBR"},{"element":"systemMenu","visible":true,"position":"stackedBR"},{"element":"dateMenu","visible":true,"position":"stackedBR"},{"element":"desktopButton","visible":false,"position":"stackedBR"}],"BOE-0x00000000":[{"element":"activitiesButton","visible":false,"position":"stackedBR"},{"element":"showAppsButton","visible":false,"position":"centerMonitor"},{"element":"leftBox","visible":true,"position":"stackedTL"},{"element":"centerBox","visible":true,"position":"stackedTL"},{"element":"taskbar","visible":true,"position":"stackedTL"},{"element":"rightBox","visible":true,"position":"stackedBR"},{"element":"systemMenu","visible":true,"position":"stackedBR"},{"element":"dateMenu","visible":true,"position":"stackedBR"},{"element":"desktopButton","visible":false,"position":"stackedBR"}]}'
 panel-element-positions-monitors-sync=true
 panel-lengths='{"DEL-10TT833":100,"AUO-0x00000000":100}'
-panel-positions='{"DEL-10TT833":"TOP","AUO-0x00000000":"TOP"}'
+panel-positions='{"DEL-10TT833":"TOP","AUO-0x00000000":"TOP","BOE-0x00000000":"TOP"}'
 panel-side-margins=0
 panel-side-padding=0
-panel-sizes='{"DEL-10TT833":34,"AUO-0x00000000":34}'
+panel-sizes='{"DEL-10TT833":30,"AUO-0x00000000":36,"BOE-0x00000000":30}'
 panel-top-bottom-margins=0
 panel-top-bottom-padding=0
 prefs-opened=false
 primary-monitor='DEL-10TT833'
+secondarymenu-contains-showdetails=true
+show-favorites=true
+show-running-apps=true
+status-icon-padding=-1
+stockgs-keep-dash=true
 stockgs-keep-top-panel=false
 taskbar-locked=true
-trans-bg-color='#613583'
+trans-bg-color='#1e2122'
 trans-gradient-bottom-opacity=0.25
 trans-gradient-top-opacity=0.0
-trans-panel-opacity=0.20000000000000001
+trans-panel-opacity=0.70000000000000007
 trans-use-custom-bg=false
 trans-use-custom-gradient=false
 trans-use-custom-opacity=true
-trans-use-dynamic-opacity=true
+trans-use-dynamic-opacity=false
+tray-padding=-1
 window-preview-title-position='TOP'
 
 [shell/extensions/ding]
 check-x11wayland=true
 
 [shell/extensions/gsconnect]
-devices=['80d38ccc70e24f57a620c2b71dff98ec']
-enabled=true
+devices=@as []
 keep-alive-when-locked=true
-name='Arch LInux'
+name='Arche '
 show-indicators=true
-
-[shell/extensions/gsconnect/device/80d38ccc70e24f57a620c2b71dff98ec]
-certificate-pem='-----BEGIN CERTIFICATE-----\nMIIBizCCATGgAwIBAgIBATAKBggqhkjOPQQDBDBPMSkwJwYDVQQDDCA4MGQzOGNj\nYzcwZTI0ZjU3YTYyMGMyYjcxZGZmOThlYzEUMBIGA1UECwwLS0RFIENvbm5lY3Qx\nDDAKBgNVBAoMA0tERTAeFw0yNDA3MjMwMzAwMDBaFw0zNTA3MjMwMzAwMDBaME8x\nKTAnBgNVBAMMIDgwZDM4Y2NjNzBlMjRmNTdhNjIwYzJiNzFkZmY5OGVjMRQwEgYD\nVQQLDAtLREUgQ29ubmVjdDEMMAoGA1UECgwDS0RFMFkwEwYHKoZIzj0CAQYIKoZI\nzj0DAQcDQgAEKWOzXuomJ6CrPII5feSgK30esrYSmIRSmY2BU3x+HeXEGkkdcJV8\ni7WAWztl3plx2XSyd7AtdLlDgk8EEjsQqDAKBggqhkjOPQQDBANIADBFAiBtKQr4\nGDaworZeJf2QYFl5MsG1L8kQYvp9STn5FGPNiAIhAMV7TpVlr9DRIK7PBVqWB6E8\nhGc7nhR7bYyEjyjMcWTl\n-----END CERTIFICATE-----\n'
-incoming-capabilities=['kdeconnect.battery', 'kdeconnect.bigscreen.stt', 'kdeconnect.clipboard', 'kdeconnect.clipboard.connect', 'kdeconnect.contacts.request_all_uids_timestamps', 'kdeconnect.contacts.request_vcards_by_uid', 'kdeconnect.findmyphone.request', 'kdeconnect.mousepad.keyboardstate', 'kdeconnect.mousepad.request', 'kdeconnect.mpris', 'kdeconnect.mpris.request', 'kdeconnect.notification', 'kdeconnect.notification.action', 'kdeconnect.notification.reply', 'kdeconnect.notification.request', 'kdeconnect.ping', 'kdeconnect.runcommand', 'kdeconnect.sftp.request', 'kdeconnect.share.request', 'kdeconnect.share.request.update', 'kdeconnect.sms.request', 'kdeconnect.sms.request_attachment', 'kdeconnect.sms.request_conversation', 'kdeconnect.sms.request_conversations', 'kdeconnect.systemvolume', 'kdeconnect.telephony.request', 'kdeconnect.telephony.request_mute']
-last-connection='lan://192.168.15.38:1716'
-name='Galaxy S23'
-outgoing-capabilities=['kdeconnect.battery', 'kdeconnect.bigscreen.stt', 'kdeconnect.clipboard', 'kdeconnect.clipboard.connect', 'kdeconnect.connectivity_report', 'kdeconnect.contacts.response_uids_timestamps', 'kdeconnect.contacts.response_vcards', 'kdeconnect.findmyphone.request', 'kdeconnect.mousepad.echo', 'kdeconnect.mousepad.keyboardstate', 'kdeconnect.mousepad.request', 'kdeconnect.mpris', 'kdeconnect.mpris.request', 'kdeconnect.notification', 'kdeconnect.notification.request', 'kdeconnect.ping', 'kdeconnect.presenter', 'kdeconnect.runcommand.request', 'kdeconnect.sftp', 'kdeconnect.share.request', 'kdeconnect.sms.attachment_file', 'kdeconnect.sms.messages', 'kdeconnect.systemvolume.request', 'kdeconnect.telephony']
-paired=true
-supported-plugins=['battery', 'clipboard', 'connectivity_report', 'contacts', 'findmyphone', 'mousepad', 'mpris', 'notification', 'ping', 'presenter', 'runcommand', 'sftp', 'share', 'sms', 'systemvolume', 'telephony']
-type='phone'
-
-[shell/extensions/gsconnect/device/80d38ccc70e24f57a620c2b71dff98ec/plugin/battery]
-custom-battery-notification-value=uint32 80
-send-statistics=true
-
-[shell/extensions/gsconnect/device/80d38ccc70e24f57a620c2b71dff98ec/plugin/notification]
-applications='{"Spotify":{"iconName":"com.spotify.Client","enabled":true},"Ghostty":{"iconName":"com.mitchellh.ghostty","enabled":true},"Power":{"iconName":"org.gnome.Settings-power-symbolic","enabled":true},"Software":{"iconName":"org.gnome.Software","enabled":true},"Color Management":{"iconName":"org.gnome.Settings-color-symbolic","enabled":true},"Timeshift":{"iconName":"timeshift","enabled":true},"Printers":{"iconName":"org.gnome.Settings-printers-symbolic","enabled":true},"Files":{"iconName":"org.gnome.Nautilus","enabled":true},"Date & Time":{"iconName":"org.gnome.Settings-time-symbolic","enabled":true}}'
-
-[shell/extensions/gsconnect/device/80d38ccc70e24f57a620c2b71dff98ec/plugin/share]
-receive-directory='/home/raphael/Downloads'
-
-[shell/extensions/gsconnect/messaging]
-window-maximized=false
-window-size=(948, 986)
 
 [shell/extensions/gsconnect/preferences]
 window-maximized=false
-window-size=(948, 986)
+window-size=(948, 992)
 
 [shell/extensions/just-perfection]
 accessibility-menu=false
 clock-menu=true
 controls-manager-spacing-size=0
 double-super-to-appgrid=true
-events-button=false
+events-button=true
 keyboard-layout=true
 max-displayed-search-results=0
 panel=true
 panel-in-overview=true
 quick-settings-airplane-mode=false
-quick-settings-dark-mode=true
+quick-settings-dark-mode=false
+search=true
 startup-status=0
 support-notifier-showed-version=34
 support-notifier-type=0
@@ -457,18 +470,25 @@ switcher-popup-delay=true
 theme=false
 weather=false
 window-maximized-on-create=true
-workspace=true
+workspace=false
 workspace-peek=true
 workspace-popup=false
 workspaces-in-app-grid=false
 world-clock=false
 
+[shell/extensions/panel-corners]
+panel-corner-background-color='rgb(255,0,0)'
+panel-corner-opacity=1.0
+panel-corner-radius=21
+panel-corners=true
+screen-corners=false
+
 [shell/extensions/pop-shell]
 activate-launcher=@as []
 active-hint=false
 active-hint-border-radius=uint32 10
-gap-inner=uint32 2
-gap-outer=uint32 2
+gap-inner=uint32 1
+gap-outer=uint32 1
 hint-color-rgba='rgb(50,129,234)'
 max-window-width=uint32 1920
 mouse-cursor-follows-active-window=false
@@ -478,7 +498,7 @@ pop-workspace-down=@as []
 pop-workspace-up=@as []
 show-skip-taskbar=false
 show-title=true
-smart-gaps=true
+smart-gaps=false
 snap-to-grid=true
 stacking-with-mouse=false
 tile-by-default=true
@@ -502,9 +522,11 @@ border-width=1
 custom-rounded-corner-settings=@a{sv} {}
 enable-preferences-entry=false
 focused-shadow={'verticalOffset': 4, 'horizontalOffset': 0, 'blurOffset': 28, 'spreadRadius': 4, 'opacity': 25}
-global-rounded-corner-settings={'padding': <{'left': uint32 1, 'right': 1, 'top': 1, 'bottom': 1}>, 'keepRoundedCorners': <{'maximized': true, 'fullscreen': false}>, 'borderRadius': <uint32 4>, 'smoothing': <0.0>, 'borderColor': <(0.28627452254295349, 0.28627452254295349, 0.28627452254295349, 1.0)>, 'enabled': <true>}
+global-rounded-corner-settings={'padding': <{'left': uint32 0, 'right': 0, 'top': 0, 'bottom': 0}>, 'keepRoundedCorners': <{'maximized': false, 'fullscreen': false}>, 'borderRadius': <uint32 6>, 'smoothing': <0.0>, 'borderColor': <(0.28627452254295349, 0.28627452254295349, 0.28627452254295349, 1.0)>, 'enabled': <true>}
 settings-version=uint32 7
 skip-libadwaita-app=false
+skip-libhandy-app=false
+tweak-kitty-terminal=true
 unfocused-shadow={'verticalOffset': 2, 'horizontalOffset': 0, 'blurOffset': 12, 'spreadRadius': -1, 'opacity': 65}
 
 [shell/extensions/space-bar/appearance]
@@ -527,8 +549,11 @@ enable-move-to-workspace-shortcuts=true
 version=33
 workspace-names-map='{"org.gnome.Shell.Extensions":["Teams"],"com.mitchellh.ghostty":["Teams"]}'
 
+[shell/extensions/trayIconsReloaded]
+tray-position='right'
+
 [shell/extensions/user-theme]
-name='Fluent-Dark'
+name='Fluent-Dark-compact'
 
 [shell/extensions/workspace-switcher-manager]
 font-scale=102
@@ -536,9 +561,9 @@ popup-opacity=100
 popup-visibility=1
 
 [software]
-check-timestamp=int64 1753452035
+check-timestamp=int64 1754038832
 first-run=false
-flatpak-purge-timestamp=int64 1753459175
+flatpak-purge-timestamp=int64 1754008455
 
 [tweaks]
 show-extensions-notice=false
