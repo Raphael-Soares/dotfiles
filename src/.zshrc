@@ -1,4 +1,5 @@
 ZSH="/home/$USER/.oh-my-zsh"
+[[ $TERM != "linux" && -z "$TMUX" ]] && sh ~/.config/tmux/tmux-default.sh
 
 # Plugins
 plugins=(git zsh-autosuggestions zsh-syntax-highlighting fast-syntax-highlighting )
@@ -14,7 +15,9 @@ alias ls="eza --icons"
 alias ll="eza -ll --icons"
 alias ll="eza -a --icons"
 alias vim="nvim "
+alias vi="vim "
 alias please="sudo "
+
 
 # NVM
 export NVM_DIR="$HOME/.nvm"

@@ -15,7 +15,7 @@ window-size=(1358, 730)
 
 [control-center]
 last-panel='background'
-window-state=(1920, 1050, false)
+window-state=(1912, 1042, false)
 
 [desktop/app-folders]
 folder-children=['System', 'Utilities', 'YaST', 'Pardus', 'b50e8d5f-8234-46dd-a764-33ca80dc0139', '7764846c-4410-421e-b3d7-8521b09c8ec0']
@@ -54,8 +54,8 @@ name='Unnamed Folder'
 [desktop/background]
 color-shading-type='solid'
 picture-options='zoom'
-picture-uri='file:///home/raphael/.local/share/backgrounds/2025-07-31-15-59-20-luca-bravo-ii5JY_46xH0-unsplash.jpg'
-picture-uri-dark='file:///home/raphael/.local/share/backgrounds/2025-07-31-15-59-20-luca-bravo-ii5JY_46xH0-unsplash.jpg'
+picture-uri='file:///home/raphael/.local/share/backgrounds/2025-08-02-18-00-52-pawel-czerwinski-YAtspJ-HV2E-unsplash.jpg'
+picture-uri-dark='file:///home/raphael/.local/share/backgrounds/2025-08-02-18-00-52-pawel-czerwinski-YAtspJ-HV2E-unsplash.jpg'
 primary-color='#000000000000'
 secondary-color='#000000000000'
 
@@ -164,7 +164,7 @@ two-finger-scrolling-enabled=true
 [desktop/screensaver]
 color-shading-type='solid'
 picture-options='zoom'
-picture-uri='file:///home/raphael/.local/share/backgrounds/2025-07-31-15-59-20-luca-bravo-ii5JY_46xH0-unsplash.jpg'
+picture-uri='file:///home/raphael/.local/share/backgrounds/2025-08-02-18-00-52-pawel-czerwinski-YAtspJ-HV2E-unsplash.jpg'
 primary-color='#000000000000'
 secondary-color='#000000000000'
 
@@ -247,7 +247,7 @@ migrated-gtk-settings=true
 search-filter-time-type='last_modified'
 
 [nautilus/window-state]
-initial-size=(954, 1042)
+initial-size=(1920, 1050)
 initial-size-file-chooser=(890, 550)
 maximized=false
 
@@ -264,7 +264,7 @@ last-folder-path='/home/raphael/Downloads'
 last-folder-path='/home/raphael/Pictures/wallpapers'
 
 [portal/filechooser/org.gnome.Settings]
-last-folder-path='/home/raphael/Pictures/wallpapers'
+last-folder-path='/home/raphael/Downloads'
 
 [portal/filechooser/org.qbittorrent.qBittorrent]
 last-folder-path='/home/raphael'
@@ -321,7 +321,7 @@ menu-position-alignment=0
 multi-monitor=false
 position-in-panel='Left'
 prefs-visible-page=0
-recently-installed-apps=['com.usebruno.Bruno.desktop', 'com.jetbrains.DataGrip.desktop', 'com.jetbrains.IntelliJ-IDEA-Ultimate.desktop', 'forticlient.desktop', 'openfortigui.desktop', 'blueman-manager.desktop', 'net.nokyan.Resources.desktop', 'com.visualstudio.code.desktop', 'jshell-java11-openjdk.desktop', 'jconsole-java11-openjdk.desktop', 'code-oss.desktop', 'electron35.desktop', 'timeshift-gtk.desktop', 'org.gnome.Snapshot.desktop', 'com.desktop.ding.desktop', 'Alacritty.desktop', 'org.videolan.VLC.desktop', 'cutefish-calculator.desktop', 'cutefish-filemanager.desktop', 'cutefish-terminal.desktop', 'cutefish-settings.desktop', 'org.rncbc.qjackctl.desktop', 'cadence.desktop', 'catarina.desktop', 'catia.desktop', 'fluid.desktop', 'rakarrack.desktop', 'carla.desktop', 'org.pulseaudio.pavucontrol.desktop', 'studio.kx.carla.desktop', 'ToneLib-GFX.desktop', 'calf.desktop', 'org.gnome.Notes.desktop', 'org.gnome.TextEditor.desktop', 'vim.desktop', 'com.ktechpit.whatsie.desktop', 'org.gnome.Evince.desktop', 'com.valvesoftware.Steam.desktop', 'nvim.desktop', 'com.google.Chrome.desktop', 'steam.desktop', 'com.bitwarden.desktop.desktop', 'nl.hjdskes.gcolor3.desktop']
+recently-installed-apps=['com.usebruno.Bruno.desktop', 'com.jetbrains.DataGrip.desktop', 'com.jetbrains.IntelliJ-IDEA-Ultimate.desktop', 'forticlient.desktop', 'openfortigui.desktop', 'blueman-manager.desktop', 'net.nokyan.Resources.desktop', 'com.visualstudio.code.desktop', 'jshell-java11-openjdk.desktop', 'jconsole-java11-openjdk.desktop', 'code-oss.desktop', 'electron35.desktop', 'timeshift-gtk.desktop', 'org.gnome.Snapshot.desktop', 'com.desktop.ding.desktop', 'org.videolan.VLC.desktop', 'cutefish-calculator.desktop', 'cutefish-filemanager.desktop', 'cutefish-terminal.desktop', 'cutefish-settings.desktop', 'org.rncbc.qjackctl.desktop', 'cadence.desktop', 'catarina.desktop', 'catia.desktop', 'fluid.desktop', 'rakarrack.desktop', 'carla.desktop', 'org.pulseaudio.pavucontrol.desktop', 'studio.kx.carla.desktop', 'ToneLib-GFX.desktop', 'calf.desktop', 'org.gnome.Notes.desktop', 'org.gnome.TextEditor.desktop', 'vim.desktop', 'com.ktechpit.whatsie.desktop', 'org.gnome.Evince.desktop', 'com.valvesoftware.Steam.desktop', 'nvim.desktop', 'com.google.Chrome.desktop', 'steam.desktop', 'com.bitwarden.desktop.desktop', 'nl.hjdskes.gcolor3.desktop', 'com.mitchellh.ghostty.desktop']
 runner-hotkey=['<Super>d']
 runner-hotkey-open-primary-monitor=true
 runner-menu-height=300
@@ -365,7 +365,7 @@ static-blur=true
 pipeline='pipeline_default'
 
 [shell/extensions/caffeine]
-indicator-position-max=4
+indicator-position-max=2
 restore-state=true
 user-enabled=true
 
@@ -429,7 +429,7 @@ taskbar-locked=true
 trans-bg-color='#1e2122'
 trans-gradient-bottom-opacity=0.25
 trans-gradient-top-opacity=0.0
-trans-panel-opacity=0.70000000000000007
+trans-panel-opacity=0.0
 trans-use-custom-bg=false
 trans-use-custom-gradient=false
 trans-use-custom-opacity=true
@@ -452,12 +452,17 @@ window-size=(948, 992)
 
 [shell/extensions/just-perfection]
 accessibility-menu=false
+animation=5
+background-menu=true
 clock-menu=true
+clock-menu-position-offset=0
 controls-manager-spacing-size=0
+dash-icon-size=0
 double-super-to-appgrid=true
 events-button=true
 keyboard-layout=true
 max-displayed-search-results=0
+notification-banner-position=2
 panel=true
 panel-in-overview=true
 quick-settings-airplane-mode=false
@@ -468,6 +473,7 @@ support-notifier-showed-version=34
 support-notifier-type=0
 switcher-popup-delay=true
 theme=false
+top-panel-position=0
 weather=false
 window-maximized-on-create=true
 workspace=false
@@ -491,14 +497,15 @@ gap-inner=uint32 1
 gap-outer=uint32 1
 hint-color-rgba='rgb(50,129,234)'
 max-window-width=uint32 1920
-mouse-cursor-follows-active-window=false
+mouse-cursor-focus-location=uint32 4
+mouse-cursor-follows-active-window=true
 pop-monitor-left=@as []
 pop-monitor-right=@as []
 pop-workspace-down=@as []
 pop-workspace-up=@as []
 show-skip-taskbar=false
 show-title=true
-smart-gaps=false
+smart-gaps=true
 snap-to-grid=true
 stacking-with-mouse=false
 tile-by-default=true
@@ -518,11 +525,11 @@ toggle-tiling=['<Super>t']
 
 [shell/extensions/rounded-window-corners-reborn]
 blacklist=@as []
-border-width=1
+border-width=-1
 custom-rounded-corner-settings=@a{sv} {}
 enable-preferences-entry=false
 focused-shadow={'verticalOffset': 4, 'horizontalOffset': 0, 'blurOffset': 28, 'spreadRadius': 4, 'opacity': 25}
-global-rounded-corner-settings={'padding': <{'left': uint32 0, 'right': 0, 'top': 0, 'bottom': 0}>, 'keepRoundedCorners': <{'maximized': false, 'fullscreen': false}>, 'borderRadius': <uint32 6>, 'smoothing': <0.0>, 'borderColor': <(0.28627452254295349, 0.28627452254295349, 0.28627452254295349, 1.0)>, 'enabled': <true>}
+global-rounded-corner-settings={'padding': <{'left': uint32 1, 'right': 1, 'top': 1, 'bottom': 1}>, 'keepRoundedCorners': <{'maximized': false, 'fullscreen': false}>, 'borderRadius': <uint32 6>, 'smoothing': <0.0>, 'borderColor': <(0.28627452254295349, 0.28627452254295349, 0.28627452254295349, 1.0)>, 'enabled': <true>}
 settings-version=uint32 7
 skip-libadwaita-app=false
 skip-libhandy-app=false
@@ -561,9 +568,9 @@ popup-opacity=100
 popup-visibility=1
 
 [software]
-check-timestamp=int64 1754038832
+check-timestamp=int64 1754229621
 first-run=false
-flatpak-purge-timestamp=int64 1754008455
+flatpak-purge-timestamp=int64 1754180442
 
 [tweaks]
 show-extensions-notice=false
