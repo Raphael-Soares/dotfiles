@@ -1,3 +1,3 @@
 #!/usr/bin/env bash
 pwd
-stow -d src -t ~ .
+stow -d .dotfiles/src -t ~ .
