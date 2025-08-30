@@ -1,3 +1,3 @@
 #!/usr/bin/env bash
 
-stow -d ../src -t ~ .
+stow -d src -t ~ .
