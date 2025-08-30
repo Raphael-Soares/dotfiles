@@ -1,26 +1,15 @@
 ZSH="/home/$USER/.oh-my-zsh"
-[[ $TERM != "linux" && -z "$TMUX" ]] && sh ~/.config/tmux/tmux-default.sh
 
 # Plugins
-plugins=(git zsh-autosuggestions zsh-syntax-highlighting fast-syntax-highlighting )
+plugins=(git zsh-autosuggestions zsh-syntax-highlighting fast-syntax-highlighting eza docker nvm)
 source $ZSH/oh-my-zsh.sh
 
-# Theme 
 ZSH_THEME=""
 eval "$(starship init zsh)"
 
-
-# ALIASES
-alias ls="eza --icons"
-alias ll="eza -ll --icons"
-alias ll="eza -a --icons"
 alias vim="nvim "
-alias vi="vim "
-alias please="sudo "
+alias vi="vim"
 
-
-# NVM
-export NVM_DIR="$HOME/.nvm"
-[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh" 
-[ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion" 
+zstyle ':omz:plugins:eza' 'icons' yes
+zstyle ':omz:plugins:nvm' lazy yes
 
